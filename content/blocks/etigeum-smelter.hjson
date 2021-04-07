@@ -8,7 +8,7 @@
     hasItems: true
     craftTime: 10
     itemCapacity: 100
-    updateEffect: "fireballsmoke"
+    updateEffect: "steam"
     craftEffect: "plasticExplosion"
     outputItem: etigeum/3
     consumes: {
