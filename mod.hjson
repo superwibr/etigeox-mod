@@ -1,6 +1,6 @@
 name: "ETG -1"
 displayName: "ETG-1 Circsus" //what displays in the mod selection menu
-author: "Anuke"
+author: "Mit"
 description: "Machines and factories with machines in them"
 version: "-1"
 minGameVersion: "105"
