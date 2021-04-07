@@ -1,0 +1,19 @@
+{
+    name: Superconductor Tower
+    type: PowerNode
+    health: 240
+    size: 4
+    maxNodes: 50
+    laserRange: 50
+    requirements: [
+        superconductor/30
+        silicon/20
+        titanium/ 10
+        lead/10
+        graphene/10
+    ]
+    laserColor2: 6cd5f5
+    laserColor1: 6cd5f5
+    research: power-node
+    category: power
+}
