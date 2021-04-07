@@ -4,7 +4,7 @@
     color: 09e0dd,
     research: {
         parent: surge_alloy,
-        "requirements": surge-alloy/1
+        requirements: surge-alloy/1
     },
-    "hardness": 7
+    hardness: 7
 }
