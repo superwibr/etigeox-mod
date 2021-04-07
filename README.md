@@ -1,6 +1,2 @@
 # etigeox-mod
-
-asdfg
-
-gfgeiy
-greg
+greg is a lie
