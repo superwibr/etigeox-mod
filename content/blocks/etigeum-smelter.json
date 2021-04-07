@@ -1,0 +1,56 @@
+{
+    "name": Etigeum Smelter
+    "type": "GenericSmelter",
+    "health": 280,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": 10,
+    "itemCapacity": 100,
+    "updateEffect": "shieldBreak",
+    "craftEffect": "plasticExplosion",
+    "outputItem": {
+        "item": "etigeum",
+        "amount": 3
+    },
+    "consumes": {
+        "power": 3000,
+        "items": {
+            "items": [
+                {
+                    "item": "surge-alloy",
+                    "amount": 5
+                },
+                {
+                    "item": "spore-pod",
+                    "amount": 5
+                }
+            ]
+        }
+    },
+    "requirements": [
+        {
+            "item": "titanium",
+            "amount": 150
+        },
+        {
+            "item": "thorium",
+            "amount": 100
+        },
+        {
+            "item": "metaglass",
+            "amount": 100
+        },
+        {
+            "item": "silicon",
+            "amount": 110
+        },
+        {
+            "item": "graphite",
+            "amount": 100
+        }
+    ],
+    "category": "crafting",
+    "research": "alloy-smelter"
+}

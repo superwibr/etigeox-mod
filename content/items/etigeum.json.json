@@ -1,0 +1,15 @@
+{
+    "type": "material",
+    "cost": 2.5,
+    "color": "09e0dd",
+    "research": {
+        "parent": "surge_alloy",
+        "requirements": [
+            {
+                "item": "surge_alloy",
+                "amount": 1
+            },
+        ]
+    },
+    "hardness": 7
+}
