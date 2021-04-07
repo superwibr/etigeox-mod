@@ -1,2 +1,1 @@
-# etigeox-mod
-greg is a lie
+# etigeox mod
