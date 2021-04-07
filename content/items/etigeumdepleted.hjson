@@ -5,7 +5,7 @@
     color: 09e0dd,
     research: {
         parent: etigeum,
-        "requirements": etigeum
+        "requirements": etigeum/1
     },
     "hardness": 12
 }
