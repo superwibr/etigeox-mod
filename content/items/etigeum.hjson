@@ -4,12 +4,7 @@
     "color": "09e0dd",
     "research": {
         "parent": "surge_alloy",
-        "requirements": [
-            {
-                "item": "surge_alloy",
-                "amount": 1
-            },
-        ]
+        "requirements": surge-alloy/1
     },
     "hardness": 7
 }

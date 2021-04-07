@@ -1,0 +1,32 @@
+{
+    name: Etigeum Smelter
+    type: "GenericSmelter"
+    health: 280
+    size: 3
+    hasPower: true
+    hasLiquids: false
+    hasItems: true
+    craftTime: 10
+    itemCapacity: 100
+    updateEffect: "shieldBreak"
+    craftEffect: "plasticExplosion"
+    outputItem: etigeum/3
+    consumes: {
+        power: 3000,
+        items: {
+            items: [
+                surge-alloy/5
+                spore-pod/5
+            ]
+        }
+    },
+    requirements: [
+        titanium/150
+        thorium/100
+        metaglass/100
+        silicon/110
+        graphite/100
+    ],
+    "category": "crafting",
+    "research": "alloy-smelter"
+}
