@@ -13,6 +13,6 @@
         power: 0.30
         liquid: water/1
     },
-    category:production
+    category: production
     research: laser-drill
 }
