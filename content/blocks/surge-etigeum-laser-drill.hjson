@@ -6,7 +6,7 @@
     size: 2
     tier: 5
     drillTime: 13.5
-    warmupSpeed: 0.05
+    warmupSpeed: 7
     rotateSpeed: 4
     liquidBoostIntensity: 1
     consumes : {

@@ -10,7 +10,7 @@
     rotateSpeed: 4
     liquidBoostIntensity: 1
     consumes : {
-        power: 0.30
+        power: 6
         liquid: water/0.1
     },
     requirements: [
