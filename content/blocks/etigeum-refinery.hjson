@@ -1,10 +1,10 @@
 {
-    name: Etigeum Synthesizer
+    name: Etigeum Refinery
     type: "GenericSmelter"
-    health: 280
+    health: 380
     size: 3
     hasPower: true
-    hasLiquids: false
+    hasLiquids: true
     hasItems: true
     craftTime: 10
     itemCapacity: 100
@@ -15,10 +15,10 @@
         power: 3000,
         items: {
             items: [
-                surge-alloy/5
-                spore-pod/5
+                etigeum/1
             ]
-        }
+        },
+        liquid: water/1
     },
     requirements: [
         titanium/150
