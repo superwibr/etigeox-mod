@@ -6,8 +6,9 @@
     OutputItem: [ 
         etigeum-depleted/1 
     ]
-    outputLiquid: [
+    OutputLiquid: [
         fluid-energy/1
     ]
     craftEffect: steam
+    category: crafting
 }

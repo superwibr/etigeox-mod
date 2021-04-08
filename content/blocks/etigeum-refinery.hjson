@@ -27,6 +27,6 @@
         silicon/110
         graphite/100
     ],
-    "category": "crafting",
-    "research": "alloy-smelter"
+    category: crafting
+    research: alloy-smelter
 }
