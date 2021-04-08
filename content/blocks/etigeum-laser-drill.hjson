@@ -5,13 +5,13 @@
     type: drill
     size: 3
     tier: 5
-    drillTime: 300
+    drillTime: 600
     warmupSpeed: 0.05
     rotateSpeed: 4
     liquidBoostIntensity: 1
     consumes : {
         power: 0.30
-        liquid: water/1
+        liquid: water/0.01
     },
     requirements: [
         etigeum-refined/1
