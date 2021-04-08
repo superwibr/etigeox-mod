@@ -1,5 +1,4 @@
 {
-    name: Etigeum Ore
     type: OreBlock
     itemDrop: etigeum
 }
