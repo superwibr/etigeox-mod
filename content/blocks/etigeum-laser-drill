@@ -1,5 +1,7 @@
 {
     name: Etigeum Laser Drill
+    description: drill go brrrr
+    type: drill
     size: 3
     tier: 5
     drilltime: 300
