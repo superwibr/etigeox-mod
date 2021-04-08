@@ -12,7 +12,7 @@
     craftEffect: "plasticExplosion"
     outputItem: etigeum-refined/3
     consumes: {
-        power: 3000,
+        power: 1,
         items: {
             items:[
                 etigeum/1
