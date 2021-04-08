@@ -4,7 +4,7 @@
     description: An Etigeum powered conveyor , way faster than a plastinium conveyor while retaining simplicity.
     health: 190
     requirements: [
-        etigeum/1
+        etigeum-refined/1
         titanium/2
         plastanium/1
         silicon/1
