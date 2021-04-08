@@ -1,4 +1,2 @@
-{
-    type: OreBlock
-    itemDrop: etigeum
-}
+type: OreBlock
+itemDrop: etigeum
