@@ -1,7 +1,7 @@
 {
     name: Etigeum Conveyor
     type: conveyor
-    description: An Etigeum powered conveyor , about 1.2x faster than a plastinium conveyor while retaining simplicity.
+    description: An Etigeum powered conveyor , way faster than a plastinium conveyor while retaining simplicity.
     health: 190
     requirements: [
         etigeum/1
@@ -11,6 +11,7 @@
         thorium/1
     ]
     category:distribution
-    speed:1
-    displayspeed:1
+    speed:0.4
+    displayspeed:0.4
+    research: Plastanium-conveyor
 }

@@ -1,0 +1,17 @@
+{
+    name: Supercharged Etigeum Conveyor
+    type: conveyor
+    description: An Etigeum powered conveyor , a powerful , mighty and holy Supercharged Etigeum Conveyor , should be able to satisfy all your transportation needs.
+    health: 190
+    requirements: [
+        etigeum/3
+        titanium/4
+        plastanium/2
+        graphene/2
+        thorium/2
+    ]
+    category:distribution
+    speed:1
+    displayspeed:0.8
+    research: Plastanium-conveyor
+}
