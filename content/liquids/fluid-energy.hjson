@@ -2,7 +2,7 @@
     name: Fluid Energy
     description: We still don't knowwhy this exists, but we can use it to power weapons.
     temperature: 1
-    viscosity: -5
+    viscosity: 0
     heatCapacity: 3
     color: 17d1c2
     research: {
