@@ -1,0 +1,13 @@
+{
+    name: Energy Fluidiser
+    description: Discharges charged etigeum and fluidizes the energy into a liquid.
+    type: GenericCrafter
+    inputItem: etigeum-charged/1
+    OutputItem: [ 
+        etigeum-depleted/1 
+    ]
+    outputLiquid: [
+        fluid-energy/1
+    ]
+    craftEffect: steam
+}

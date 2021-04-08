@@ -14,10 +14,10 @@
     consumes: {
         power: 3000,
         items: {
-            items: [
+            items:[
                 etigeum/1
             ]
-        },
+        }
         liquid: water/1
     },
     requirements: [
