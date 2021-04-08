@@ -4,7 +4,7 @@
     type: router
     speed: 0.3
     hasItems: true
-    ItemCapacity: 6
+    itemCapacity: 6
     category: distribution
     research: {
         parent: router,
