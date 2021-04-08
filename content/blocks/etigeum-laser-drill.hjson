@@ -10,7 +10,7 @@
     rotatespeed: 4
     liquidboostintensity: 1
     consumes : {
-        energy: 0.30
+        power: 0.30
         liquid: water/1
     }
     category: production
