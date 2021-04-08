@@ -11,6 +11,6 @@
         thorium/1
     ]
     category:distribution
-    speed:0.1
-    displayspeed:0.1
+    speed:1
+    displayspeed:1
 }
