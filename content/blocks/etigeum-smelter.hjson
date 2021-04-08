@@ -15,8 +15,8 @@
         power: 3000,
         items: {
             items: [
-                surge-alloy/5
-                spore-pod/5
+                surge-alloy/10
+                spore-pod/100
             ]
         }
     },
