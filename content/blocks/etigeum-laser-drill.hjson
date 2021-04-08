@@ -13,6 +13,12 @@
         power: 0.30
         liquid: water/1
     },
+    requirements: [
+        etigeum-refined/1
+        titanium/2
+        plastanium/1
+        silicon/1
+    ]
     category: production
     research: laser-drill
 }
