@@ -10,7 +10,7 @@
         graphene/2
     ]
     category:distribution
-    speed:1
-    displayspeed:0.6
+    speed:0.6
+    displayspeed:0.4
     research: plastanium-conveyor
 }
