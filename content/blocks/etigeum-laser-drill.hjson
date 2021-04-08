@@ -12,6 +12,6 @@
     consumes : {
         power: 0.30
         liquid: water/1
-    }
+    },
     category: production
 }
