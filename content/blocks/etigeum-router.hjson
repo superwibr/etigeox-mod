@@ -5,4 +5,11 @@
     speed: 0.3
     hasItems: true
     ItemCapacity: 6
+    category: distribution
+    research: {
+        parent: router,
+        requirements: [
+            etigeum/1
+        ]
+    }
 }
