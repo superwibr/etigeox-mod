@@ -1,0 +1,14 @@
+{
+    name: Etigeum Laser Drill
+    size: 3
+    tier: 5
+    drilltime: 300
+    warmupspeed: 0.05
+    rotatespeed: 4
+    liquidboostintensity: 1
+    consumes : {
+        energy: 0.30
+        liquid: water/1
+    }
+    category:production
+}
