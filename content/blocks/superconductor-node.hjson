@@ -2,7 +2,7 @@
     name: Superconductor Tower
     type: PowerNode
     health: 240
-    size: 4
+    size: 3
     maxNodes: 50
     laserRange: 50
     requirements: [
