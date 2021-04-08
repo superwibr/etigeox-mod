@@ -6,9 +6,9 @@
     size: 3
     tier: 5
     drilltime: 300
-    warmupspeed: 0.05
-    rotatespeed: 4
-    liquidboostintensity: 1
+    warmupSpeed: 0.05
+    rotateSpeed: 4
+    liquidBoostIntensity: 1
     consumes : {
         power: 0.30
         liquid: water/1
