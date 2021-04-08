@@ -13,5 +13,5 @@
         power: 0.30
         liquid: water/1
     }
-    category: Production
+    category: production
 }
