@@ -1,20 +1,20 @@
 {
-    name: Etigeum Laser Drill
-    description: drill go brrrr
+    name: Supercharged Pinpoint Etigeum Drill
+    description: A drill that , although smaller , is more precise than its competitors and thus a drill that wields higher ammounts of ressources at a faster pace.
     health: 300
     type: drill
-    size: 3
+    size: 2
     tier: 5
-    drillTime: 44
+    drillTime: 5
     warmupSpeed: 0.05
     rotateSpeed: 4
     liquidBoostIntensity: 1
     consumes : {
-        power: 0.30
+        power: 0.45
         liquid: water/0.1
     },
     requirements: [
-        etigeum-refined/1
+        etigeum-charged/1
         titanium/2
         plastanium/1
         silicon/1
