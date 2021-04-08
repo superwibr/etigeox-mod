@@ -18,10 +18,7 @@
                 etigeum/1
             ]
         },
-        liquid: {
-            liquid: [
-                water/1
-            ]
+        liquid: { water/1
         }
     },
     requirements: [
