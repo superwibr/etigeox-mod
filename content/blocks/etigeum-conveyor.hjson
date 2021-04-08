@@ -10,7 +10,7 @@
         silicon/1
     ]
     category:distribution
-    speed:0.4
-    displayspeed:0.4
+    speed: 0.4
+    displayspeed: 0.2
     research: plastanium-conveyor
 }
