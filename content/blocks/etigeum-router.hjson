@@ -8,6 +8,11 @@
     hasItems: true
     itemCapacity: 6
     category: distribution
+    requirements: [
+        etigeum-refined/1
+        titanium/2
+        silicon/1
+    ]
     research: {
         parent: router,
         requirements: [
