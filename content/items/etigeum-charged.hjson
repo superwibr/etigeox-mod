@@ -1,5 +1,6 @@
 {
     Name : Charged Etigeum
+    description: Charged Etigeum holding plenty of energy with a high potential for energy production.
     type: material
     cost: 2.5
     color: 09e0dd,

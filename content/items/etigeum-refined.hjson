@@ -1,5 +1,6 @@
 {
     name : Refined Etigeum
+    description : Etigeum , a valuable material ready for use.
     type: material
     cost: 2.5
     color: 09e0dd,
