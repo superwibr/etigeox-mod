@@ -18,11 +18,4 @@ const turret = extend(Turret, "not a duo", {
     TargetGround: true,
     breakable: true,
     shootSound: 'shootBig',
-
-    /*// shoot
-    buildType: () => {
-        function shoot(type){
-
-        }
-    }*/
 });
