@@ -2,20 +2,19 @@
 // "but the docs don't teach me anything about turrets" I said
 // and then I realized that's the point
 
-const turret = extend(Turret, "not a duo", {
-    name: "turret...",
+// it appears in the content, but you can't get it in-game.
+const turret = extend(Turret, "notaduo", {
     description: "The decades fade, the blueprints die. With my ambitions all I have.",
     health: 420,
-    shootType: 'missileIncendiary',
-    PowerUse: 0,
-    craftTime: 0,
+    shootType: Bullets.missileIncendiary,
+    powerUse: 0,
     reloadTime: 0,
-    category: 'turret',
-    research: 'duo',
     range: 300,
     acceptCoolant: true,
-    TargetAir: true,
-    TargetGround: true,
+    targetAir: true,
+    targetGround: true,
     breakable: true,
-    shootSound: 'shootBig',
+    shootSound: Sounds.shootBig,
+    category: 'turret',
+    research: 'duo'
 });
