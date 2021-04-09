@@ -17,6 +17,7 @@
 			optional: true
 			booster: true
 		}
+    }
     requirements: [
         etigeum-refined/90
         titanium/170
