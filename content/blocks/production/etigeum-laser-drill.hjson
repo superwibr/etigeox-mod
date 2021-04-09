@@ -14,10 +14,12 @@
         liquid: water/0.1
     },
     requirements: [
-        etigeum-refined/1
-        titanium/2
-        plastanium/1
-        silicon/1
+        etigeum-refined/90
+        titanium/170
+        plastanium/120
+        silicon/120
+        graphene/30
+        graphite/30
     ]
     category: production
     research: laser-drill

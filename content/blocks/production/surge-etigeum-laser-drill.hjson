@@ -14,10 +14,14 @@
         liquid: water/0.1
     },
     requirements: [
-        etigeum-charged/1
-        titanium/2
-        plastanium/1
-        silicon/1
+        etigeum-charged/90
+        titanium/210
+        plastanium/160
+        silicon/120
+        graphene/120
+        graphite/120
+        thorium/120
+        superconductor/50
     ]
     category: production
     research: laser-drill

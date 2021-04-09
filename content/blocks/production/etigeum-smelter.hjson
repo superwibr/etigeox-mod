@@ -1,13 +1,14 @@
 {
     name: Etigeum Synthesizer
+    description: Through revolutionnary methods we have come up with a way to synthetise Etigeum. The only downside is the energy consumption and the low output.
     type: "GenericSmelter"
     health: 280
     size: 3
     hasPower: true
     hasLiquids: false
     hasItems: true
-    craftTime: 10
-    itemCapacity: 100
+    craftTime: 360
+    itemCapacity: 64
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
     outputItem: etigeum-refined/3
@@ -15,17 +16,21 @@
         power: 18,
         items: {
             items: [
-                surge-alloy/10
-                spore-pod/100
+                thorium/5
+                metaglass/2
+                plastanium/1
             ]
         }
     },
     requirements: [
-        titanium/150
-        thorium/100
-        metaglass/100
-        silicon/110
-        graphite/100
+        etigeum-refined/100
+        thorium/190
+        titanium/300
+        metaglass/240
+        silicon/550
+        graphite/120
+        plastanium/40
+        surge-alloy/15
     ],
     "category": "crafting",
     "research": "alloy-smelter"

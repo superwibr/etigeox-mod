@@ -1,12 +1,13 @@
 {
     name: Etigeum Refinery
+    description: A machine used to refine Etigeum.
     type: "GenericSmelter"
     health: 380
     size: 3
     hasPower: true
     hasLiquids: true
     hasItems: true
-    craftTime: 10
+    craftTime: 30
     itemCapacity: 100
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
@@ -15,17 +16,18 @@
         power: 10,
         items: {
             items:[
-                etigeum/1
+                etigeum/3
             ]
         }
         liquid: water/1
     },
     requirements: [
-        titanium/150
-        thorium/100
-        metaglass/100
+        titanium/200
+        thorium/5
+        metaglass/50
         silicon/110
         graphite/100
+        silicon/100
     ],
     category: crafting
     research: alloy-smelter

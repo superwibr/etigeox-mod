@@ -11,6 +11,7 @@
         etigeum-refined/1
         titanium/2
         silicon/1
+        plastanium/1
     ]
     research: {
         parent: router,
