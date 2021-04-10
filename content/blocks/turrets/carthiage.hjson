@@ -2,13 +2,13 @@ name : QEW-HML Carthiage
 type : ItemTurret
 size : 3
 health : 350
-reloadtime : 1
+reloadtime : 0.1
 range : 400
 targetAir : false
 targetGround : true
 rotateSpeed : 10
 inaccuracy : 1
-recoilAmount : 3
+recoilAmount : 1
 restitution : 2
 cooldown : 1
 spread : 10
