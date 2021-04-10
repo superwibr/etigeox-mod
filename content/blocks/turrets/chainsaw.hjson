@@ -26,7 +26,6 @@ shootType : {
     pierce : true
     lifetime : 999
 }
-}
 requirements : [
     etigeum-charged/50
     etigeum-refined/100
