@@ -14,7 +14,7 @@
         power: 13
         liquid: {
 			liquid: water
-			amount: 0.35
+			amount: 0.15
 		}
     },
     requirements: [
