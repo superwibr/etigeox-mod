@@ -19,7 +19,7 @@
                 etigeum/3
             ]
         }
-        liquid: water/1
+        liquid: water/0.25
     },
     requirements: [
         titanium/200

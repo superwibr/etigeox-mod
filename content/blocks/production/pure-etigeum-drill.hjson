@@ -1,0 +1,32 @@
+{
+    name: Supercharged Pinpoint Etigeum Drill
+    description: A perfectionned drill made to purify etigeum before it even comes out of this wonderful device.
+    health: 300
+    type: drill
+    size: 2
+    tier: 5
+    drillTime: 12
+    warmupSpeed: 7
+    rotateSpeed: 4
+    liquidBoostIntensity: 1.1
+    hardnessDrillMultiplier: 2
+    consumes : {
+        power: 13
+        liquid: {
+			liquid: water
+			amount: 0.35
+		}
+    },
+    requirements: [
+        etigeum-charged/90
+        titanium/210
+        plastanium/160
+        silicon/120
+        graphene/120
+        graphite/120
+        thorium/120
+        superconductor/50
+    ]
+    category: production
+    research: laser-drill
+}
