@@ -8,7 +8,8 @@
     drillTime: 50.2
     warmupSpeed: 0.05
     rotateSpeed: 4
-    liquidBoostIntensity: 1
+    liquidBoostIntensity: 3
+    hardnessDrillMultiplier: 2
     consumes : {
         power: 5
         liquid: {
