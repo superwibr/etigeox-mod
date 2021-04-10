@@ -2,7 +2,7 @@ name : QEW-HML Carthiage
 type : ItemTurret
 size : 3
 health : 350
-reloadtime : 2000
+reloadtime : 1
 range : 400
 targetAir : false
 targetGround : true
@@ -21,7 +21,8 @@ ammoTypes : {
         splashDamageRadius : 50
         splashDamage : 180
         speed : 2
-        size : 4
+        height : 40
+        widht : 40
         homingPower : 1
         homingRange : 1
         shootEffect : generatespark
