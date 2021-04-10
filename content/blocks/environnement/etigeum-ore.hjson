@@ -3,7 +3,7 @@
     itemDrop: etigeum
     playerUnmineable: true
     oreDefault: true
-    variants: 1
+    variants: 3
     oreScale: 1
     oreThreshold: 1
 }
