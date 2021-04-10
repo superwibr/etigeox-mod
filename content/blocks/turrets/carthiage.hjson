@@ -1,5 +1,5 @@
 name : QEW-HML Carthiage
-type : CooledTurret
+type : ItemTurret
 size : 3
 health : 350
 reloadtime : 500
