@@ -1,0 +1,59 @@
+name : QEW-HML Carthiage
+type : CooledTurret
+size : 3
+health : 350
+reloadtime : 500
+range : 400
+targetAir : false
+targetGround : true
+rotateSpeed : 10
+inaccuracy : 8
+recoilAmount : 2
+restitution : 1
+cooldown : 1
+spread : 10
+shots : 8
+shootSound : missile
+ammoTypes : {
+    blast-compound : {
+        type : missileExplosive
+        damage : 300
+        splashDamageRadius : 50
+        splashDamage : 180
+        speed : 2
+        size : 2
+        homingPower : 1
+        homingRange : 1
+        shootEffect : generatespark
+        smokeEffect : steam
+        hitEffect : nuclearShockwave
+        lifetime : 999
+    }
+    pyratite : {
+        type : missileExplosive
+        damage : 140
+        splashDamageRadius : 35
+        splashDamage : 80
+        speed : 2
+        size : 2
+        homingPower : 1
+        homingRange : 1
+        shootEffect : generatespark
+        smokeEffect : steam
+        hitEffect : nuclearShockwave
+        lifetime : 999
+    }
+}
+requirements : [
+    etigeum-charged/50
+    etigeum-refined/100
+    titanium/300
+    thorium/50
+    surge-alloy/70
+    silicon/30
+    graphite/30
+    graphene/30
+]
+category: turret
+research: foreshadow
+
