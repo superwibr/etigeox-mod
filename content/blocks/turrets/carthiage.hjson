@@ -14,6 +14,8 @@ cooldown : 5
 spread : 10
 shots : 4
 shootSound : missile
+maxAmmo : 8
+ammoPerShot : 2
 ammoTypes : {
     blast-compound : {
         type : missileExplosive
