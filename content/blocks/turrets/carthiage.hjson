@@ -22,7 +22,7 @@ ammoTypes : {
         splashDamage : 180
         speed : 2
         height : 40
-        widht : 40
+        width : 40
         homingPower : 1
         homingRange : 1
         shootEffect : generatespark
