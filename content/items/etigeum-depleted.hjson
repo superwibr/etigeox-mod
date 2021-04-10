@@ -7,5 +7,5 @@
     research: {
         parent: etigeum,
     },
-    "hardness": 12
+    "hardness": 5
 }
