@@ -1,0 +1,43 @@
+{
+name : QEW-LMG Chainsaw
+type : PowerTurret
+size : 3
+health : 350
+reloadTime : 30
+range : 300
+targetAir : false
+targetGround : true
+rotateSpeed : 1
+inaccuracy : 5
+recoilAmount : 5
+restitution : 2
+cooldown : 5
+spread : 10
+shootSound : lasershoot
+hasPower : true
+powerUse : 0.5
+shootType : {
+    type : BasicBulletType
+    speed : 60
+    damage : 55
+    height : 2
+    width : 1
+    hitEffect : hitLaser
+    pierce : true
+    lifetime : 999
+}
+}
+requirements : [
+    etigeum-charged/50
+    etigeum-refined/100
+    titanium/300
+    thorium/50
+    surge-alloy/70
+    silicon/30
+    graphite/30
+    graphene/30
+]
+category: turret
+research: spectre
+}
+
