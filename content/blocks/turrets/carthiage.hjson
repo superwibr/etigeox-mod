@@ -1,3 +1,4 @@
+{
 name : QEW-HML Carthiage
 type : ItemTurret
 size : 3
@@ -59,4 +60,5 @@ requirements : [
 ]
 category: turret
 research: foreshadow
+}
 
