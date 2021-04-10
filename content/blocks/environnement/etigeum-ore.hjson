@@ -1,9 +1,2 @@
-{
-    type: OreBlock
-    itemDrop: etigeum
-    playerUnmineable: true
-    oreDefault: true
-    variants: 3
-    oreScale: 1
-    oreThreshold: 1
-}
+type: OreBlock
+itemDrop: etigeum
