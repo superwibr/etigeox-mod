@@ -3,7 +3,7 @@ name : QEW-LMG Chainsaw
 type : PowerTurret
 size : 3
 health : 350
-reloadTime : 30
+reloadTime : 1
 range : 300
 targetAir : false
 targetGround : true
