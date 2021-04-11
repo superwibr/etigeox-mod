@@ -8,6 +8,7 @@ hasItems: true
 itemCapacity: 64
 itemDuration: 10
 powerProduction: 85
+outputItem : etigeum-depleted/3
 consumes: {
         items: {
             items:[
@@ -20,7 +21,6 @@ consumes: {
                 etigeum-refined/3
             ]
         }
-outputItem : etigeum-depleted/3
 requirements: [
   etigeum-refined/30
   titanium/100
