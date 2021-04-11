@@ -1,0 +1,24 @@
+{
+    localizedName: 'sprite',
+    description: "The decades fade, the blueprints die. With my ambitions all I have.",
+    health: 420,
+    targetAir: true,
+    targetGround: true,
+    breakable: true,
+    category: 'turret',
+    research: 'duo',
+    buildVisibility: 'shown'
+
+    // for the js
+    update: true
+    solid: true
+    hasItems: true
+    configurable: true
+    consumes: {
+        items: {
+            items: [
+            scrap/10
+            ]
+        }
+    }
+}
