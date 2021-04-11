@@ -9,10 +9,17 @@ itemCapacity: 64
 itemDuration: 10
 powerProduction: 85
 consumes: {
-  items: [
-      etigeum-charged/3
-  ]
-}
+        items: {
+            items:[
+                etigeum-charged/3
+            ]
+            items:[
+                etigeum-raw/3
+            ]
+            items:[
+                etigeum-refined/3
+            ]
+        }
 outputItem : etigeum-depleted/3
 requirements: [
   etigeum-refined/30
