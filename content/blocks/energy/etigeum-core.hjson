@@ -12,9 +12,6 @@ consumes: {
   items: [
       etigeum-charged/3
   ]
-  items: [
-      etigeum-refined/4
-  ]
 }
 requirements: [
   etigeum-refined/30
