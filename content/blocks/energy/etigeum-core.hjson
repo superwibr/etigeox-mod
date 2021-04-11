@@ -1,0 +1,30 @@
+name: Etigeum Core
+description: Generates great amounts of power from Charged , Refined or Raw Etigeum. Turns these into depleted Etigeum which is found to be extremly hard in some situations.
+type: SingleTypeGenerator
+size: 2
+hasPower: true
+health: 300
+hasItems: true
+itemCapacity: 64
+itemDuration: 10
+powerProduction: 85
+consumes: {
+  items: [
+      etigeum-charged/3
+  ]
+  items: [
+      etigeum-refined/4
+  ]
+  items: [
+      etigeum/5
+  ]
+}
+requirements: [
+  etigeum-refined/30
+  titanium/100
+  thorium/50
+  plastanium/20
+  graphene/20
+]
+category: power
+research: impact-reactor
