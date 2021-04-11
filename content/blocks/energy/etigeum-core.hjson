@@ -13,10 +13,16 @@ consumes: {
         items: {
             items:[
                 etigeum-charged/3
-            items:[
-                etigeum-raw/3
+            ]
+        }
+        items: {
             items:[
                 etigeum-refined/3
+            ]
+        }
+        items: {
+            items:[
+                etigeum-raw/3
             ]
         }
 }
