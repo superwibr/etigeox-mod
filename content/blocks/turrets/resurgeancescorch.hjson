@@ -19,9 +19,9 @@ ammoTypes : {
         smokeEffect : fireballsmoke
         hitEffect : shootSmall
         lifetime : 50
-        incendAmount : 100
+        incendAmount : 50
         incendChance : 100
-        incendSpread : 100
+        incendSpread : 35
         ammoMultiplier : 3
         pierce : true
     }
@@ -35,9 +35,9 @@ ammoTypes : {
         smokeEffect : fireballsmoke
         hitEffect : shootSmall
         lifetime : 50
-        incendAmount : 200
-        incendChance : 200
-        incendSpread : 200
+        incendAmount : 100
+        incendChance : 100
+        incendSpread : 100
         ammoMultiplier : 4
         pierce : true
     }
