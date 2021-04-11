@@ -22,7 +22,7 @@ consumes: {
         }
         items: {
             items:[
-                etigeum-raw/3
+                etigeum/3
             ]
         }
 }
