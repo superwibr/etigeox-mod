@@ -16,7 +16,7 @@ consumes: {
       etigeum-refined/4
   ]
   items: [
-      etigeum/5
+      etigeum-raw/5
   ]
 }
 requirements: [
