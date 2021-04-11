@@ -30,3 +30,12 @@ ammoTypes : {
         hitEffect : shootSmall
         lifetime : 60
     }
+} 
+requirements : [
+    etigeum-refined/1
+    scrap/150
+]
+category: turret
+research: duo
+
+
