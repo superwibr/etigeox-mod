@@ -4,7 +4,7 @@ description : When freedom burns , the final solution ,
  the curtain has fallen , lost to the world as they perish in flames.
 type : ItemTurret
 health : 350
-reloadTime : 1
+reloadTime : 0.1
 range : 50
 maxAmmo : 50
 shootSound : shoot
