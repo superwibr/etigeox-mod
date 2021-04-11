@@ -8,7 +8,7 @@ range : 50
 maxAmmo : 50
 shootSound : shoot
 inaccuracy : 1
-rotateSpeed : 0.1
+rotateSpeed : 2
 ammoTypes : {
     coal : {
         type : BasicBulletType
