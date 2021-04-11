@@ -13,6 +13,7 @@ consumes: {
       etigeum-charged/3
   ]
 }
+outputItem : etigeum-depleted/3
 requirements: [
   etigeum-refined/30
   titanium/100

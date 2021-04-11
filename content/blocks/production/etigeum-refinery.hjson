@@ -1,22 +1,22 @@
 {
-    name: Etigeum Refinery
-    description: A machine used to refine Etigeum.
+    name: Etigeum Charger
+    description: A machine used to charge Etigeum.
     type: "GenericSmelter"
     health: 380
     size: 3
     hasPower: true
     hasLiquids: true
     hasItems: true
-    craftTime: 30
+    craftTime: 20
     itemCapacity: 100
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
-    outputItem: etigeum-refined/3
+    outputItem: etigeum-charged/3
     consumes: {
         power: 10,
         items: {
             items:[
-                etigeum/3
+                etigeum-depleted/3
             ]
         }
         liquid: water/0.15
