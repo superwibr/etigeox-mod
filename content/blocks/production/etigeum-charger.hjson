@@ -3,7 +3,7 @@
     description: A machine used to charge Etigeum.
     type: "GenericSmelter"
     health: 380
-    size: 3
+    size: 2
     hasPower: true
     hasLiquids: true
     hasItems: true
