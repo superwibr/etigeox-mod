@@ -2,7 +2,7 @@ name : Scrapped Turret
 description : "The decades fade , the blueprints die , with my ambitions all I have."
 type : ItemTurret
 health : 70
-reloadTime : 1
+reloadTime : 15
 recoilAmount : 5
 restitution : 15
 range : 100
