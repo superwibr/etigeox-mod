@@ -1,6 +1,6 @@
 name: Etigeum Core
 description: Generates great amounts of power from Charged , Refined or Raw Etigeum. Turns these into depleted Etigeum which is found to be extremly hard in some situations.
-type: SingleTypeGenerator
+type: PowerGenerator
 size : 2
 hasPower: true
 health: 300
@@ -8,7 +8,6 @@ hasItems: true
 itemCapacity: 64
 itemDuration: 10
 powerProduction: 85
-outputItem : etigeum-depleted/3
 consumes: {
         items: {
             items:[
