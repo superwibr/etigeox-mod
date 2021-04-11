@@ -1,0 +1,52 @@
+name : Resurgeance of the Scorch
+description : When freedom burns , the final solution , dreams fade away and all Hope turns to dust. When millions burn , the curtain has fallen , lost to the world as they perish in flames.
+type : ItemTurret
+health : 350
+reloadTime : 1
+range : 50
+maxAmmo : 50
+shootSound : shoot
+inaccuracy : 1
+rotateSpeed : 0.1
+ammoTypes : {
+    coal : {
+        type : BasicBulletType
+        damage : 16
+        speed : 2
+        height : 4
+        width : 4
+        shootEffect : smelt
+        smokeEffect : fireballsmoke
+        hitEffect : shootSmall
+        lifetime : 50
+        incendAmount : 100
+        incendChance : 100
+        incendSpread : 100
+        ammoMultiplier : 3
+        pierce : true
+    }
+    pyratite : {
+        type : BasicBulletType
+        damage : 25
+        speed : 2
+        height : 4
+        width : 4
+        shootEffect : smelt
+        smokeEffect : fireballsmoke
+        hitEffect : shootSmall
+        lifetime : 50
+        incendAmount : 200
+        incendChance : 200
+        incendSpread : 200
+        ammoMultiplier : 4
+        pierce : true
+    }
+} 
+requirements : [
+    copper/150
+    graphite/150
+]
+category: turret
+research: scorch
+
+
