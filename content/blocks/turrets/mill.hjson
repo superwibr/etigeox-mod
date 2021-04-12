@@ -8,7 +8,7 @@ range : 450
 targetAir : false
 targetGround : true
 rotateSpeed : 0.8
-inaccuracy : 88
+inaccuracy : 94
 recoilAmount : 15
 restitution : 2
 cooldown : 5
