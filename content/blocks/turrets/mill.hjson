@@ -3,7 +3,7 @@ name : QEW-HMG Mill
 type : PowerTurret
 size : 3
 health : 350
-reloadTime : 0.0083
+reloadTime : 0.083
 range : 450
 targetAir : false
 targetGround : true
@@ -16,6 +16,7 @@ spread : 4
 shootSound : lasershoot
 hasPower : true
 powerUse : 5
+shots : 9
 shootType : {
     type : BasicBulletType
     speed : 5
