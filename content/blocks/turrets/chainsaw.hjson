@@ -15,11 +15,11 @@ cooldown : 5
 spread : 10
 shootSound : lasershoot
 hasPower : true
-powerUse : 0.5
+powerUse : 0.8
 shootType : {
     type : BasicBulletType
     speed : 60
-    damage : 35
+    damage : 25
     height : 2
     width : 1
     hitEffect : hitLaser
