@@ -29,14 +29,10 @@ shootType : {
 }
 
 requirements : [
-    etigeum-charged/50
-    etigeum-refined/100
-    titanium/300
+    etigeum-charged/20
+    etigeum-refined/90
+    titanium/115
     thorium/50
-    surge-alloy/70
-    silicon/30
-    graphite/30
-    graphene/30
 ]
 category: turret
 research: scatter
