@@ -8,18 +8,18 @@ range : 450
 targetAir : false
 targetGround : true
 rotateSpeed : 0.8
-inaccuracy : 5
-recoilAmount : 5
+inaccuracy : 3
+recoilAmount : 7
 restitution : 2
 cooldown : 5
-spread : 10
+spread : 4
 shootSound : lasershoot
 hasPower : true
-powerUse : 0.8
+powerUse : 5
 shootType : {
     type : BasicBulletType
     speed : 60
-    damage : 30
+    damage : 25
     height : 2
     width : 1
     hitEffect : hitLaser
