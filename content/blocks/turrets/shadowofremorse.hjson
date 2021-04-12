@@ -8,7 +8,7 @@ reloadTime : 0.01
 range : 450
 targetAir : false
 targetGround : true
-rotateSpeed : 0.1
+rotateSpeed : 20
 inaccuracy : 8
 recoilAmount : 7
 restitution : 2
@@ -22,13 +22,9 @@ ammoTypes : {
     etigeum-magazine : {
         type : BasicBulletType
         damage : 5
-        splashDamageRadius : 90
-        splashDamage : 1800
         speed : 2
-        height : 20
-        width : 20
-        homingPower : 1
-        homingRange : 1
+        height : 1
+        width : 1
         shootEffect : generatespark
         smokeEffect : steam
         hitEffect : nuclearShockwave
