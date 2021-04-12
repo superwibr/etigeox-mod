@@ -1,3 +1,4 @@
+{
 name : Scrapped Turret
 description : "The decades fade , the blueprints die , with my ambitions all I have."
 type : ItemTurret
@@ -40,5 +41,5 @@ requirements : [
 ]
 category: turret
 research: duo
-
+}
 
