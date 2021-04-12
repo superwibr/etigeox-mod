@@ -19,7 +19,7 @@ powerUse : 0.8
 shootType : {
     type : BasicBulletType
     speed : 60
-    damage : 25
+    damage : 30
     height : 2
     width : 1
     hitEffect : hitLaser
