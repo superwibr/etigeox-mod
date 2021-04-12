@@ -2,10 +2,10 @@
 name : QEW-AR Equinox Star
 description : A long range commanding Assault Rifle.
 type : PowerTurret
-size : 3
-health : 350
+size : 2
+health : 250
 reloadTime : 15
-range : 450
+range : 420
 targetAir : true
 targetGround : true
 rotateSpeed : 0.8
