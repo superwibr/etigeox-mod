@@ -1,14 +1,15 @@
 {
 name : QEW-HMG Mill
+description : A turret with godly stats. Well...
 type : PowerTurret
 size : 3
 health : 350
-reloadTime : 0.083
+reloadTime : 0.83
 range : 450
 targetAir : false
 targetGround : true
 rotateSpeed : 0.8
-inaccuracy : 94
+inaccuracy : 88
 recoilAmount : 15
 restitution : 2
 cooldown : 5
@@ -28,14 +29,11 @@ shootType : {
     lifetime : 999
 }
 requirements : [
-    etigeum-charged/50
-    etigeum-refined/100
-    titanium/300
-    thorium/50
-    surge-alloy/70
-    silicon/30
-    graphite/30
-    graphene/30
+    etigeum-charged/300
+    etigeum-refined/500
+    titanium/700
+    thorium/600
+    surge-alloy/300
 ]
 category: turret
 research: spectre
