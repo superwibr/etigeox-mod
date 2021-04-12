@@ -2,7 +2,7 @@
 // "but the docs don't teach me anything about turrets" I said
 // and then I realized that's the point
 
-const notaduo = extendContent(Block, "notaduo", {
+const notaduo = extendContent(Turret, "notaduo", {
     //override the method to build configuration
     buildConfiguration(tile, table){
         table.addImageButton(Icon.upOpen, Styles.clearTransi, run(() => {
