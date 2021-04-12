@@ -15,7 +15,7 @@ cooldown : 5
 spread : 4
 shootSound : lasershoot
 hasPower : true
-powerUse : 5
+powerUse : 13.33
 shots : 3
 shootType : {
     type : BasicBulletType
