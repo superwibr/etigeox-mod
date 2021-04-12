@@ -17,8 +17,9 @@ spread : 4
 shootSound : lasershoot
 hasPower : true
 powerUse : 9
+maxAmmo : 50000
 ammoTypes : {
-    blast-compound : {
+    etigeum-magazine : {
         type : BasicBulletType
         damage : 5
         splashDamageRadius : 90
@@ -32,6 +33,7 @@ ammoTypes : {
         smokeEffect : steam
         hitEffect : nuclearShockwave
         lifetime : 999
+        ammoMultiplier : 5000
     }
 }
 requirements : [
