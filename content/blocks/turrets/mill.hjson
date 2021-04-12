@@ -3,7 +3,7 @@ name : QEW-HMG Mill
 type : PowerTurret
 size : 3
 health : 350
-reloadTime : 0.083
+reloadTime : 0.0083
 range : 450
 targetAir : false
 targetGround : true
