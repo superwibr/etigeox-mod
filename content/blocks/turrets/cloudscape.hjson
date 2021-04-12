@@ -1,0 +1,44 @@
+{
+name : QEW-AR Cloudscape
+description : Death from the skies ? No. DEATH TO THE SKIES !
+type : DoubleTurret
+size : 3
+health : 350
+reloadTime : 30
+range : 250
+targetAir : true
+targetGround : true
+rotateSpeed : 0.2
+inaccuracy : 1
+recoilAmount : 5
+restitution : 2
+cooldown : 5
+spread : 10
+shootSound : lasershoot
+hasPower : true
+powerUse : 5
+shootType : {
+    type : BasicBulletType
+    speed : 60
+    damage : 18
+    height : 2
+    width : 1
+    hitEffect : hitLaser
+    pierce : true
+    lifetime : 999
+}
+
+requirements : [
+    etigeum-charged/50
+    etigeum-refined/100
+    titanium/300
+    thorium/50
+    surge-alloy/70
+    silicon/30
+    graphite/30
+    graphene/30
+]
+category: turret
+research: scatter
+}
+

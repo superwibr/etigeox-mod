@@ -1,5 +1,6 @@
 {
 name : QEW-HML Carthiage
+description : A powerful rocketlauncher adapted into a turret form.
 type : ItemTurret
 size : 3
 health : 350
