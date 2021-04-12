@@ -1,37 +1,35 @@
-name: Etigeum Core
-description: Generates great amounts of power from Charged , Refined or Raw Etigeum. Turns these into depleted Etigeum which is found to be extremly hard in some situations.
-type: PowerGenerator
-size : 2
-hasPower: true
-health: 300
-hasItems: true
-itemCapacity: 64
-itemDuration: 10
-powerProduction: 85
-consumes: {
+{
+    name: Etigeum Core
+    description: Generates great amounts of power from all kinds of etigeum and outputs depleted etigeum which is unusable.
+    type: "GenericSmelter"
+    health: 380
+    size: 2
+    hasPower: true
+    hasLiquids: true
+    hasItems: true
+    craftTime: 20
+    itemCapacity: 100
+    updateEffect: "steam"
+    craftEffect: "plasticExplosion"
+    outputItem: etigeum-depleted/3
+  outputsPower: true
+  powerProduction: 50
+    consumes: {
         items: {
             items:[
                 etigeum-charged/3
             ]
         }
-        items: {
-            items:[
-                etigeum-refined/3
-            ]
-        }
-        items: {
-            items:[
-                etigeum/3
-            ]
-        }
+        liquid: water/0.05
+    },
+    requirements: [
+        titanium/200
+        thorium/5
+        metaglass/50
+        silicon/110
+        graphite/100
+        silicon/100
+    ],
+    category: crafting
+    research: alloy-smelter
 }
-outputItem : etigeum-depleted/3
-requirements: [
-  etigeum-refined/30
-  titanium/100
-  thorium/50
-  plastanium/20
-  graphene/20
-]
-category: power
-research: impact-reactor
