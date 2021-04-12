@@ -6,6 +6,8 @@ health : 350
 reloadTime : 0.1
 range : 50
 maxAmmo : 50
+targetAir : false
+targetGround : true
 shootSound : shoot
 inaccuracy : 1
 rotateSpeed : 2
