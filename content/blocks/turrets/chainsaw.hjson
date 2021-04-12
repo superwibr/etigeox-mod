@@ -8,7 +8,7 @@ range : 450
 targetAir : false
 targetGround : true
 rotateSpeed : 0.8
-inaccuracy : 3
+inaccuracy : 4
 recoilAmount : 7
 restitution : 2
 cooldown : 5
@@ -19,7 +19,7 @@ powerUse : 5
 shootType : {
     type : BasicBulletType
     speed : 60
-    damage : 25
+    damage : 26
     height : 2
     width : 1
     hitEffect : hitLaser
