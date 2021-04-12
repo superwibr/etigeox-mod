@@ -1,0 +1,11 @@
+{
+    Name : Etigeum Magazine
+    description: Magazine for special weapons.
+    type: material
+    cost: 2.5
+    color: 09e0dd,
+    research: {
+        parent: etigeum,
+    },
+    "hardness": 5
+}

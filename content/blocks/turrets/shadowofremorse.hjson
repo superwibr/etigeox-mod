@@ -2,7 +2,7 @@
 name : UEA-SMG Shadow of Remorse
 description : An elite Ultra-Etigeox weapon.
 type : ItemTurret
-size : 3
+size : 1
 health : 350
 reloadTime : 0.01
 range : 450
