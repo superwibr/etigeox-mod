@@ -4,7 +4,7 @@ description : A long range commanding Assault Rifle.
 type : PowerTurret
 size : 2
 health : 250
-reloadTime : 7
+reloadTime : 6.5
 range : 420
 targetAir : true
 targetGround : true

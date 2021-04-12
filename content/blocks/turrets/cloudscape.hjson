@@ -8,7 +8,7 @@ reloadTime : 5
 range : 250
 targetAir : true
 targetGround : false
-rotateSpeed : 0.2
+rotateSpeed : 2
 inaccuracy : 1
 recoilAmount : 5
 restitution : 2
