@@ -1,0 +1,50 @@
+{
+name : UEA-SMG Shadow of Remorse
+description : An elite Ultra-Etigeox weapon.
+type : ItemTurret
+size : 3
+health : 350
+reloadTime : 0.01
+range : 450
+targetAir : false
+targetGround : true
+rotateSpeed : 0.1
+inaccuracy : 8
+recoilAmount : 7
+restitution : 2
+cooldown : 5
+spread : 4
+shootSound : lasershoot
+hasPower : true
+powerUse : 9
+ammoTypes : {
+    blast-compound : {
+        type : BasicBulletType
+        damage : 5
+        splashDamageRadius : 90
+        splashDamage : 1800
+        speed : 2
+        height : 20
+        width : 20
+        homingPower : 1
+        homingRange : 1
+        shootEffect : generatespark
+        smokeEffect : steam
+        hitEffect : nuclearShockwave
+        lifetime : 999
+    }
+}
+requirements : [
+    etigeum-charged/50
+    etigeum-refined/100
+    titanium/300
+    thorium/50
+    surge-alloy/70
+    silicon/30
+    graphite/30
+    graphene/30
+]
+category: turret
+research: chainsaw
+}
+
