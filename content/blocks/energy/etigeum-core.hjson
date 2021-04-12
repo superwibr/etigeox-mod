@@ -12,9 +12,8 @@
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
     outputItem: etigeum-depleted/3
-  outputsPower: true
-  powerProduction: 50
     consumes: {
+        power: -10
         items: {
             items:[
                 etigeum-charged/3
