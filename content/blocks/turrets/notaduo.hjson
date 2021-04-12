@@ -1,6 +1,6 @@
 {
     localizedName: 'sprite',
-    description: "The decades fade, the blueprints die. With my ambitions all I have.",
+    description: "this is not the turret of cheese",
     health: 420,
     targetAir: true,
     targetGround: true,
