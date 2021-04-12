@@ -2,12 +2,12 @@
 name : QEW-AR Cloudscape
 description : Death from the skies ? No. DEATH TO THE SKIES !
 type : DoubleTurret
-size : 3
+size : 2
 health : 350
 reloadTime : 30
 range : 250
 targetAir : true
-targetGround : true
+targetGround : false
 rotateSpeed : 0.2
 inaccuracy : 1
 recoilAmount : 5
