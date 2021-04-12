@@ -4,7 +4,7 @@ description : Death from the skies ? No. DEATH TO THE SKIES !
 type : PowerTurret
 size : 2
 health : 350
-reloadTime : 30
+reloadTime : 5
 range : 250
 targetAir : true
 targetGround : false
@@ -20,7 +20,7 @@ powerUse : 5
 shootType : {
     type : BasicBulletType
     speed : 60
-    damage : 18
+    damage : 98
     height : 2
     width : 1
     hitEffect : hitLaser
