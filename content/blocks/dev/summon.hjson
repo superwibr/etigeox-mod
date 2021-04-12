@@ -1,0 +1,10 @@
+{
+    localizedName: summoner
+    configurable: true
+    category: logic
+    requirements : [
+    etigeum-charged/0
+    ]
+    size:2
+    destructible: true
+}
