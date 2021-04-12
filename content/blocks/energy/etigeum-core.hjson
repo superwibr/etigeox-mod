@@ -20,6 +20,7 @@
             ]
         }
         liquid: water/0.05
+        
     },
     requirements: [
         titanium/200
@@ -29,6 +30,6 @@
         graphite/100
         silicon/100
     ],
-    category: crafting
-    research: alloy-smelter
+    category: power
+    research: impact-reactor
 }
