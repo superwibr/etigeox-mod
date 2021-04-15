@@ -3,14 +3,14 @@ name : QEW-ERF Redemption
 description : Top of the experimental cross.
 type : ItemTurret
 size : 4
-health : 777
-reloadTime : 14
+health : 999
+reloadTime : 9
 range : 470
 targetAir : true
 targetGround : true
 rotateSpeed : 7
-inaccuracy : 7
-recoilAmount : 12
+inaccuracy : 1
+recoilAmount : 9
 restitution : 2
 cooldown : 5
 spread : 1
@@ -20,7 +20,7 @@ maxAmmo : 7000
 ammoTypes : {
     etigeum-magazine : {
         type : BasicBulletType
-        damage : 777
+        damage : 999
         speed : 0.7
         height : 1
         width : 1
