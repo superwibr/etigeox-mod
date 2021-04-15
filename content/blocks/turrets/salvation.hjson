@@ -36,6 +36,9 @@ ammoTypes : {
         speed : 4
         height : 9
         width : 7
+        lightining : 9
+        lightiningLenght : 7
+        lightiningDamage : 50
         shootEffect : generatespark
         smokeEffect : steam
         hitEffect : nuclearShockwave
