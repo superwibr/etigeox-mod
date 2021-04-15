@@ -1,0 +1,72 @@
+{
+name : QEW-HML Carthiage
+description : A powerful rocketlauncher adapted into a turret form.
+type : ItemTurret
+size : 3
+health : 350
+reloadTime : 160
+range : 600
+targetAir : false
+targetGround : true
+rotateSpeed : 1
+inaccuracy : 2
+recoilAmount : 5
+restitution : 2
+cooldown : 5
+spread : 10
+shots : 4
+shootSound : shootBig
+maxAmmo : 8
+ammoPerShot : 2
+ammoTypes : {
+    blast-compound : {
+        type : missileExplosive
+        damage : 5000
+        splashDamageRadius : 200
+        splashDamage : 5500
+        speed : 8
+        height : 10
+        width : 10
+        shootEffect : generatespark
+        smokeEffect : steam
+        hitEffect : nuclearShockwave
+        lifetime : 999
+    }
+    pyratite : {
+        type : missileExplosive
+        damage : 3000
+        splashDamageRadius : 100
+        splashDamage : 2000
+        speed : 4
+        height : 9
+        width : 9
+        shootEffect : generatespark
+        smokeEffect : steam
+        hitEffect : nuclearShockwave
+        lifetime : 999
+    }
+    etigeum-magazine : {
+        type : missileExplosive
+        damage : 7000
+        splashDamageRadius : 170
+        splashDamage : 7000
+        speed : 4
+        height : 9
+        width : 14
+        shootEffect : generatespark
+        smokeEffect : steam
+        hitEffect : nuclearShockwave
+        lifetime : 999
+    }
+}
+requirements : [
+    etigeum-charged/500
+    surge-alloy/500
+    etigeum-refined/500
+    scrap/500
+    sand/500
+    coal/500
+]
+category: turret
+research: carthiage
+}
