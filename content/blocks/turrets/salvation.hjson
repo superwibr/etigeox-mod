@@ -33,11 +33,11 @@ ammoTypes : {
     surge-alloy : {
         type : BasicBulletType
         damage : 777
-        speed : 0.14
+        speed : 2
         height : 2
         width : 1
-        lightining : 3
-        lightiningRange : 3
+        lightining : 50
+        lightiningRange : 50
         splashDamage : 7
         splashDamageRadius : 5
         shootEffect : generatespark
