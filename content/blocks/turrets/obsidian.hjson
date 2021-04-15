@@ -13,7 +13,7 @@ inaccuracy : 14
 recoilAmount : 18
 restitution : 2
 cooldown : 5
-spread : 2
+spread : 0
 shootSound : lasershoot
 shots : 8
 maxAmmo : 800
