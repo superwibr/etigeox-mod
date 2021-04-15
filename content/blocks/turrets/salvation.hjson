@@ -22,8 +22,8 @@ ammoTypes : {
         type : BasicBulletType
         damage : 999
         speed : 0.7
-        height : 1
-        width : 1
+        height : 7
+        width : 5
         shootEffect : generatespark
         smokeEffect : steam
         hitEffect : nuclearShockwave
@@ -34,12 +34,10 @@ ammoTypes : {
         type : BasicBulletType
         damage : 777
         speed : 2
-        height : 2
-        width : 1
-        lightining : 50
-        lightiningRange : 50
-        splashDamage : 7
-        splashDamageRadius : 5
+        height : 9
+        width : 7
+        lightining : 500
+        lightiningRange : 500
         shootEffect : generatespark
         smokeEffect : steam
         hitEffect : nuclearShockwave
