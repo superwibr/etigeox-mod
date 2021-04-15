@@ -31,7 +31,7 @@ ammoTypes : {
         ammoMultiplier : 28
     }
     surge-alloy : {
-        type : damageLightningGround
+        type : damageLightning
         damage : 777
         speed : 4
         height : 9
