@@ -4,7 +4,7 @@ description : Silent death through the night.
 type : ItemTurret
 size : 3
 health : 350
-reloadTime : 2
+reloadTime : 520
 range : 600
 targetAir : false
 targetGround : true
