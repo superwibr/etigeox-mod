@@ -4,7 +4,7 @@ description : meme tower
 type : ItemTurret
 size : 3
 health : 350
-reloadTime : 160
+reloadTime : 1
 range : 600
 targetAir : true
 targetGround : true
@@ -14,7 +14,7 @@ recoilAmount : 5
 restitution : 2
 cooldown : 5
 spread : 10
-shots : 4
+shots : 40
 shootSound : shootBig
 maxAmmo : 8
 ammoPerShot : 2
