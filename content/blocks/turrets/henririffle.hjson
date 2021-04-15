@@ -1,12 +1,12 @@
 {
-name : QEW-HML Carthiage
-description : A powerful rocketlauncher adapted into a turret form.
+name : henri riffle
+description : meme tower
 type : ItemTurret
 size : 3
 health : 350
 reloadTime : 160
 range : 600
-targetAir : false
+targetAir : true
 targetGround : true
 rotateSpeed : 1
 inaccuracy : 2
