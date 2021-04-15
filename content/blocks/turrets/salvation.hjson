@@ -1,4 +1,3 @@
-{
 name : QEW-ERF Salvation
 description : Crème de la crème.
 type : ItemTurret
@@ -57,5 +56,4 @@ requirements : [
 ]
 category: turret
 research: shadowofremorse
-}
 
