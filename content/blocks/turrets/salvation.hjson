@@ -46,6 +46,7 @@ ammoTypes : {
         ammoMultiplier : 7
     }
 }
+
 requirements : [
     etigeum-charged/2500
     etigeum-refined/5000
