@@ -4,7 +4,7 @@ description : An heavy breathrough shotgun. Low range but devastating.
 type : ItemTurret
 size : 3
 health : 3000
-reloadTime : 96
+reloadTime : 74
 range : 200
 targetAir : true
 targetGround : true
@@ -13,7 +13,7 @@ inaccuracy : 14
 recoilAmount : 18
 restitution : 2
 cooldown : 5
-spread : 8
+spread : 2
 shootSound : lasershoot
 shots : 8
 maxAmmo : 800
