@@ -20,24 +20,35 @@ maxAmmo : 7000
 ammoTypes : {
     etigeum-magazine : {
         type : BasicBulletType
-        damage : 777
+        damage : 999
         speed : 0.7
-        height : 1
-        width : 1
+        height : 7
+        width : 5
         shootEffect : generatespark
         smokeEffect : steam
         hitEffect : nuclearShockwave
         lifetime : 999
         ammoMultiplier : 28
     }
-}
-requirements : [
+    surge-alloy : {
+        type : BasicBulletType
+        damage : 777
+        speed : 4
+        height : 9
+        width : 7
+        shootEffect : generatespark
+        smokeEffect : steam
+        hitEffect : nuclearShockwave
+        lifetime : 999
+        ammoMultiplier : 7
+    }
+    requirements : [
     etigeum-charged/1000
-    etigeum-refined/1500
-    titanium/3000
-    thorium/1000
-    surge-alloy/1150
-    silicon/300
+    etigeum-refined/2500
+    titanium/4500
+    thorium/3000
+    surge-alloy/2000
+    silicon/3000
 ]
 category: turret
 research: shadowofremorse

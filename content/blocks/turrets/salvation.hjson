@@ -33,11 +33,9 @@ ammoTypes : {
     surge-alloy : {
         type : BasicBulletType
         damage : 777
-        speed : 5
+        speed : 4
         height : 9
         width : 7
-        lightining : 500
-        lightiningLenght : 500
         shootEffect : generatespark
         smokeEffect : steam
         hitEffect : nuclearShockwave
@@ -46,12 +44,12 @@ ammoTypes : {
     }
 }
 requirements : [
-    etigeum-charged/1000
-    etigeum-refined/1500
-    titanium/3000
-    thorium/1000
-    surge-alloy/1150
-    silicon/300
+    etigeum-charged/2500
+    etigeum-refined/5000
+    titanium/3500
+    thorium/3500
+    surge-alloy/2000
+    silicon/4600
 ]
 category: turret
 research: shadowofremorse
