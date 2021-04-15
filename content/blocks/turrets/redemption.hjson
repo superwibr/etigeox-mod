@@ -1,0 +1,47 @@
+{
+name : QEW-ERF Redemption
+description : Top of the experimental cross.
+type : ItemTurret
+size : 4
+health : 777
+reloadTime : 7
+range : 500
+targetAir : true
+targetGround : true
+rotateSpeed : 7
+inaccuracy : 7
+recoilAmount : 12
+restitution : 2
+cooldown : 5
+spread : 1
+shots :  7
+shootSound : lasershoot
+maxAmmo : 50000
+ammoTypes : {
+    etigeum-magazine : {
+        type : BasicBulletType
+        damage : 777
+        speed : 2
+        height : 1
+        width : 1
+        shootEffect : generatespark
+        smokeEffect : steam
+        hitEffect : nuclearShockwave
+        lifetime : 999
+        ammoMultiplier : 5000
+    }
+}
+requirements : [
+    etigeum-charged/50
+    etigeum-refined/100
+    titanium/300
+    thorium/50
+    surge-alloy/70
+    silicon/30
+    graphite/30
+    graphene/30
+]
+category: turret
+research: shadowofremorse
+}
+
