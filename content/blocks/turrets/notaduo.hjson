@@ -1,19 +1,15 @@
 {
-    localizedName: 'sprite',
-    description: "this is not the turret of cheese",
-    health: 420,
-    targetAir: true,
-    targetGround: true,
-    breakable: true,
-    category: 'turret',
-    research: 'duo',
+    localizedName: 'sprite'
+    description: "this is not the turret of cheese"
+    health: 420
+    targetAir: true
+    targetGround: true
+    breakable: true
+    category: 'turret'
+    research: 'duo'
     buildVisibility: 'shown'
-
-    // for the js
-    update: true
     solid: true
     hasItems: true
-    configurable: true
     consumes: {
         items: {
             items: [
@@ -21,4 +17,14 @@
             ]
         }
     }
+    shootType : {
+    type : BasicBulletType
+    speed : 1
+    damage : 18
+    height : 2
+    width : 100
+    hitEffect : hitLaser
+    pierce : true
+    lifetime : 500
+}
 }
