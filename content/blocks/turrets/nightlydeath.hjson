@@ -14,7 +14,7 @@ recoilAmount : 5
 restitution : 2
 cooldown : 5
 spread : 10
-shots : 4
+shots : 2
 shootSound : shootBig
 maxAmmo : 8
 ammoPerShot : 2
