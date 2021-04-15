@@ -42,6 +42,7 @@ ammoTypes : {
         lifetime : 999
         ammoMultiplier : 7
     }
+}
     requirements : [
     etigeum-charged/1000
     etigeum-refined/2500
@@ -53,4 +54,3 @@ ammoTypes : {
 category: turret
 research: shadowofremorse
 }
-
