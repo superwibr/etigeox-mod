@@ -1,0 +1,45 @@
+{
+name : QEW-HSG Obsidian
+description : An heavy breathrough shotgun. Low range but devastating.
+type : ItemTurret
+size : 3
+health : 3000
+reloadTime : 6
+range : 200
+targetAir : true
+targetGround : true
+rotateSpeed : 4
+inaccuracy : 14
+recoilAmount : 18
+restitution : 2
+cooldown : 5
+spread : 8
+shootSound : lasershoot
+shots : 8
+maxAmmo : 800
+ammoTypes : {
+    etigeum-magazine : {
+        type : BasicBulletType
+        damage : 300
+        speed : 5
+        height : 4
+        width : 4
+        shootEffect : generatespark
+        smokeEffect : steam
+        hitEffect : nuclearShockwave
+        knockback : 4
+        pierce : true
+        lifetime : 999
+        ammoMultiplier : 64
+    }
+}
+requirements : [
+    etigeum-charged/80
+    etigeum-refined/150
+    titanium/250
+    thorium/50
+    surge-alloy/150
+]
+category: turret
+research: duo
+}
