@@ -29,7 +29,7 @@ ammoTypes : {
         homingRange : 1
         shootEffect : generatespark
         smokeEffect : steam
-        hitEffect : shootsmall
+        hitEffect : shootSmall
         lifetime : 999
     }
 }
