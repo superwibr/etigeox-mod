@@ -36,13 +36,6 @@ ammoTypes : {
         speed : 4
         height : 9
         width : 7
-        lightining : 9
-        lightiningLenght : 7
-        lightiningDamage : 50
-        lightningLengthRand : 50
-        lightningAngle : 15
-        lightningCone : 50
-        lightningColor : Color.valueOf("f1fc58")
         shootEffect : generatespark
         smokeEffect : steam
         hitEffect : nuclearShockwave
