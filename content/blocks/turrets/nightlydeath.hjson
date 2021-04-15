@@ -5,8 +5,8 @@ type : ItemTurret
 size : 3
 health : 350
 reloadTime : 260
-range : 600
-targetAir : false
+range : 880
+targetAir : true
 targetGround : true
 rotateSpeed : 1
 inaccuracy : 2
@@ -35,13 +35,9 @@ ammoTypes : {
 }
 requirements : [
     etigeum-charged/50
-    etigeum-refined/100
     titanium/300
-    thorium/50
-    surge-alloy/70
-    silicon/30
-    graphite/30
-    graphene/30
+    silicon/25
+    graphene/12
 ]
 category: turret
 research: foreshadow
