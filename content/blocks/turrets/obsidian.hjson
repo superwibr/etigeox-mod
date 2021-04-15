@@ -34,11 +34,12 @@ ammoTypes : {
     }
 }
 requirements : [
-    etigeum-charged/80
-    etigeum-refined/150
-    titanium/250
-    thorium/50
-    surge-alloy/150
+    etigeum-charged/700
+    etigeum-refined/1250
+    etigeum-depleted/1250
+    titanium/2500
+    thorium/500
+    surge-alloy/1500
 ]
 category: turret
 research: duo

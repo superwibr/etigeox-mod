@@ -28,14 +28,14 @@ shootType : {
     lifetime : 999
 }
 requirements : [
-    etigeum-charged/50
-    etigeum-refined/100
-    titanium/300
-    thorium/50
-    surge-alloy/70
-    silicon/30
-    graphite/30
-    graphene/30
+    etigeum-charged/500
+    etigeum-refined/1000
+    titanium/3000
+    thorium/500
+    surge-alloy/700
+    silicon/300
+    graphite/300
+    graphene/300
 ]
 category: turret
 research: spectre

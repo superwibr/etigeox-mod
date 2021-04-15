@@ -33,14 +33,14 @@ ammoTypes : {
     }
 }
 requirements : [
-    etigeum-charged/50
-    etigeum-refined/100
-    titanium/300
-    thorium/50
-    surge-alloy/70
-    silicon/30
-    graphite/30
-    graphene/30
+    etigeum-charged/5000
+    etigeum-refined/1000
+    titanium/8000
+    thorium/5000
+    surge-alloy/7000
+    silicon/3000
+    graphite/3000
+    graphene/3000
 ]
 category: turret
 research: chainsaw

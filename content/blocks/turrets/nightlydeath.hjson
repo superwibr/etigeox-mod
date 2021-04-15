@@ -34,10 +34,10 @@ ammoTypes : {
     }
 }
 requirements : [
-    etigeum-charged/50
-    titanium/300
-    silicon/25
-    graphene/12
+    etigeum-charged/500
+    titanium/3000
+    silicon/250
+    graphene/120
 ]
 category: turret
 research: foreshadow
