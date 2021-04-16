@@ -1,0 +1,14 @@
+{
+name : Large Etigeum Reinforced Wall
+type : wall
+health : 40000
+size : 2
+requirements : [
+    etigeum-depleted/20
+    thorium/64
+    titanium/104
+    surge-alloy/80
+]
+category : defense
+research : surge-wall
+}

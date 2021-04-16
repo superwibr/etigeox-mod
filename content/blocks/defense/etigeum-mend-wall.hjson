@@ -1,0 +1,16 @@
+{
+name : Etigeum Reinforced Mender
+type : MendProjector
+health : 2000
+size : 1
+requirements : [
+    etigeum-depleted/20
+    etigeum-charged/20
+    thorium/40
+    titanium/48
+    surge-alloy/16
+    silicon/100
+]
+category : defense
+research : surge-wall
+}
