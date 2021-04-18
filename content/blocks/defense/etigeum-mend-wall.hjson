@@ -3,6 +3,8 @@ name : Etigeum Reinforced Mender
 type : MendProjector
 health : 2000
 size : 1
+hasPower : true
+powerUse : 3.25
 requirements : [
     etigeum-depleted/20
     etigeum-charged/20
