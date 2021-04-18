@@ -13,6 +13,6 @@ requirements : [
     surge-alloy/16
     silicon/100
 ]
-category : defense
-research : surge-wall
+category : effect
+research : etigeum-reinforced-wall-big
 }
