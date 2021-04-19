@@ -4,7 +4,7 @@ description : An heavy breathrough shotgun. Low range but devastating.
 type : ItemTurret
 size : 4
 health : 3000
-reloadTime : 74
+reloadTime : 94
 range : 200
 targetAir : true
 targetGround : true
@@ -20,7 +20,7 @@ maxAmmo : 800
 ammoTypes : {
     etigeum-magazine : {
         type : BasicBulletType
-        damage : 300
+        damage : 130
         speed : 5
         height : 4
         width : 4
