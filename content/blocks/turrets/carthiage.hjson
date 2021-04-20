@@ -1,5 +1,5 @@
 {
-name : QEW-HML Carthiage
+localizedName : QEW-HML Carthiage
 description : A powerful rocketlauncher adapted into a turret form.
 type : ItemTurret
 size : 3

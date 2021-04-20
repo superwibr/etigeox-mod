@@ -1,5 +1,5 @@
 {
-    name: Superconductor Tower
+    localizedName: Superconductor Tower
     type: PowerNode
     health: 240
     size: 3

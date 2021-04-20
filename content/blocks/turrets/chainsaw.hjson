@@ -1,5 +1,5 @@
 {
-name : QEW-LMG Chainsaw
+localizedName : QEW-LMG Chainsaw
 description : An heavy machine gun based on the American M249. Shoots way too fast.
 type : PowerTurret
 size : 3

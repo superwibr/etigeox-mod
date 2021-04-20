@@ -1,5 +1,5 @@
 {
-    name: Etigeum Conveyor
+    localizedName: Etigeum Conveyor
     type: conveyor
     description: An Etigeum powered conveyor , way faster than a plastinium conveyor while retaining simplicity.
     health: 190

@@ -1,5 +1,5 @@
 {
-    name: Etigeum Refinery
+    localizedName: Etigeum Refinery
     description: A machine used to refine Etigeum.
     type: "GenericSmelter"
     health: 380

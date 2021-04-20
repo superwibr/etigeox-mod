@@ -1,5 +1,5 @@
 {
-name : Scrapped Turret
+localizedName : Scrapped Turret
 description : "The decades fade , the blueprints die , with my ambitions all I have."
 type : ItemTurret
 health : 70

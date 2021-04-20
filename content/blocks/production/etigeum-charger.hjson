@@ -1,5 +1,5 @@
 {
-    name: Etigeum Charger
+    localizedName: Etigeum Charger
     description: A machine used to charge Etigeum.
     type: "GenericSmelter"
     health: 380

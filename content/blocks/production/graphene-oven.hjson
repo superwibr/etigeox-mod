@@ -1,5 +1,5 @@
 {
-type: GenericSmelter
+localizedName: GenericSmelter
 name: Graphene Oven
 description: Cooks graphite into graphene.
 health: 80

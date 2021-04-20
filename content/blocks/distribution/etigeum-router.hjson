@@ -1,5 +1,5 @@
 {
-    name: Etigeum Router
+    localizedName: Etigeum Router
     description: "With this design, Etigeox engineers fix all router flaws by enabling it to store as many items as a junction and making it as fast as an etigeum conveyor."
     type: Router
     size: 1

@@ -1,5 +1,5 @@
 {
-    Name : Charged Etigeum
+    localizedName : Charged Etigeum
     description: Charged Etigeum holding plenty of energy with a high potential for energy production.
     type: material
     cost: 2.5

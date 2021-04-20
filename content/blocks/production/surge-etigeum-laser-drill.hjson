@@ -1,5 +1,5 @@
 {
-    name: Supercharged Pinpoint Etigeum Drill
+    localizedName: Supercharged Pinpoint Etigeum Drill
     description: A drill that , although smaller , is more precise than its competitors and thus a drill that wields higher ammounts of ressources at a faster pace.
     health: 300
     type: drill

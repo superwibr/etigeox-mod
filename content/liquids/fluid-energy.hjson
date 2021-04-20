@@ -1,5 +1,5 @@
 {
-    name: Fluid Energy
+    localizedName: Fluid Energy
     description: We still don't know why this exists, but we can use it to power weapons.
     temperature: 1
     viscosity: 0

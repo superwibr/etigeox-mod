@@ -1,5 +1,5 @@
 {
-    name : Refined Etigeum
+    localizedName : Refined Etigeum
     description : Etigeum , a valuable material ready for use.
     type: material
     cost: 2.5

@@ -1,5 +1,5 @@
 {
-    name: Etigeum Laser Drill
+    localizedName: Etigeum Laser Drill
     description: A specialised laser drill using Etigeum to spit out larger quantities of ressources but still needs plenty of energy.
     health: 300
     type: drill

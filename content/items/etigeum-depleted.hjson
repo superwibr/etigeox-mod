@@ -1,5 +1,5 @@
 {
-    name: Depleted Etigeum
+    localizedName: Depleted Etigeum
     description: Etigeum that has been depleted from any energy but is found to be extremly resistant.
     type: material
     cost: 2.5

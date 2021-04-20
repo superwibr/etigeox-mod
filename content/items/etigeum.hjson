@@ -1,5 +1,5 @@
 {
-    name: Raw Etigeum
+    localizedName: Raw Etigeum
     description: Raw Etigeum straight from the ground. You might have to refine this material first.
     type: material
     cost: 2.5

@@ -1,5 +1,5 @@
 {
-    Name : Etigeum Magazine
+    localizedName : Etigeum Magazine
     description: Magazine for special weapons.
     type: material
     cost: 2.5

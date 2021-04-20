@@ -1,5 +1,5 @@
 {
-    name: Supercharged Pinpoint Etigeum Drill
+    localizedName: Supercharged Pinpoint Etigeum Drill
     description: A perfectionned drill made to purify etigeum before it even comes out of this wonderful device.
     health: 300
     type: drill

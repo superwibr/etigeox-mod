@@ -1,6 +1,6 @@
 {
 type: GenericSmelter
-name: Superconductor Oven
+localizedName: Superconductor Oven
 description: Mixes metals into superconductor.
 health: 100
 liquidCapacity: 0

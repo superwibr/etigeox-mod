@@ -1,5 +1,5 @@
 {
-    name: Etigeum Synthesizer
+    localizedName: Etigeum Synthesizer
     description: Through revolutionnary methods we have come up with a way to synthetise Etigeum. The only downside is the energy consumption and the low output.
     type: "GenericSmelter"
     health: 280

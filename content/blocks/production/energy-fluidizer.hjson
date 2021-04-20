@@ -1,5 +1,5 @@
 {
-    name: Energy Fluidiser
+    localizedName: Energy Fluidiser
     description: Discharges charged etigeum and fluidizes the energy into a liquid.
     type: GenericCrafter
     size: 2
