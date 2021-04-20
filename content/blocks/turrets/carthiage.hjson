@@ -1,66 +1,66 @@
 {
-localizedName : QEW-HML Carthiage
-description : A powerful rocketlauncher adapted into a turret form.
-type : ItemTurret
-size : 3
-health : 350
-reloadTime : 160
-range : 600
-targetAir : false
-targetGround : true
-rotateSpeed : 1
-inaccuracy : 2
-recoilAmount : 5
-restitution : 2
-cooldown : 5
-spread : 10
-shots : 4
-shootSound : shootBig
-maxAmmo : 8
-ammoPerShot : 2
-ammoTypes : {
-    blast-compound : {
-        type : missileExplosive
-        damage : 3000
-        splashDamageRadius : 90
-        splashDamage : 1800
-        speed : 2
-        height : 20
-        width : 20
-        homingPower : 1
-        homingRange : 1
-        shootEffect : generatespark
-        smokeEffect : steam
-        hitEffect : nuclearShockwave
-        lifetime : 999
+    localizedName : QEW-HML Carthiage
+    description : A powerful rocketlauncher adapted into a turret form.
+    type : ItemTurret
+    size : 3
+    health : 350
+    reloadTime : 160
+    range : 600
+    targetAir : false
+    targetGround : true
+    rotateSpeed : 1
+    inaccuracy : 2
+    recoilAmount : 5
+    restitution : 2
+    cooldown : 5
+    spread : 10
+    shots : 4
+    shootSound : shootBig
+    maxAmmo : 8
+    ammoPerShot : 2
+    ammoTypes : {
+        blast-compound : {
+            type : missileExplosive
+            damage : 3000
+            splashDamageRadius : 90
+            splashDamage : 1800
+            speed : 2
+            height : 20
+            width : 20
+            homingPower : 1
+            homingRange : 1
+            shootEffect : generatespark
+            smokeEffect : steam
+            hitEffect : nuclearShockwave
+            lifetime : 999
+        }
+        pyratite : {
+            type : missileExplosive
+            damage : 1400
+            splashDamageRadius : 65
+            splashDamage : 800
+            speed : 2
+            height : 20
+            width : 20
+            homingPower : 1
+            homingRange : 1
+            shootEffect : generatespark
+            smokeEffect : steam
+            hitEffect : nuclearShockwave
+            lifetime : 999
+        }
     }
-    pyratite : {
-        type : missileExplosive
-        damage : 1400
-        splashDamageRadius : 65
-        splashDamage : 800
-        speed : 2
-        height : 20
-        width : 20
-        homingPower : 1
-        homingRange : 1
-        shootEffect : generatespark
-        smokeEffect : steam
-        hitEffect : nuclearShockwave
-        lifetime : 999
-    }
-}
-requirements : [
-    etigeum-charged/500
-    etigeum-refined/1100
-    titanium/3000
-    thorium/500
-    surge-alloy/700
-    silicon/300
-    graphite/300
-    graphene/300
-]
-category: turret
-research: foreshadow
+    requirements : [
+        etigeum-charged/500
+        etigeum-refined/1100
+        titanium/3000
+        thorium/500
+        surge-alloy/700
+        silicon/300
+        graphite/300
+        graphene/300
+    ]
+    category: turret
+    research: foreshadow
 }
 

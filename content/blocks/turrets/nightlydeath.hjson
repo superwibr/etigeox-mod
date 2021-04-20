@@ -1,45 +1,45 @@
 {
-localizedName : QEW-SR Nightly Death
-description : Silent death through the night.
-type : ItemTurret
-size : 3
-health : 350
-reloadTime : 260
-range : 880
-targetAir : true
-targetGround : true
-rotateSpeed : 1
-inaccuracy : 2
-recoilAmount : 5
-restitution : 2
-cooldown : 5
-spread : 10
-shots : 2
-shootSound : shootBig
-maxAmmo : 8
-ammoPerShot : 2
-ammoTypes : {
-    etigeum-magazine : {
-        type : BasicBulletType
-        damage : 3000
-        speed : 4
-        height : 4
-        width : 2
-        homingPower : 1
-        homingRange : 1
-        shootEffect : generatespark
-        smokeEffect : steam
-        hitEffect : shootSmall
-        lifetime : 999
+    localizedName : QEW-SR Nightly Death
+    description : Silent death through the night.
+    type : ItemTurret
+    size : 3
+    health : 350
+    reloadTime : 260
+    range : 880
+    targetAir : true
+    targetGround : true
+    rotateSpeed : 1
+    inaccuracy : 2
+    recoilAmount : 5
+    restitution : 2
+    cooldown : 5
+    spread : 10
+    shots : 2
+    shootSound : shootBig
+    maxAmmo : 8
+    ammoPerShot : 2
+    ammoTypes : {
+        etigeum-magazine : {
+            type : BasicBulletType
+            damage : 3000
+            speed : 4
+            height : 4
+            width : 2
+            homingPower : 1
+            homingRange : 1
+            shootEffect : generatespark
+            smokeEffect : steam
+            hitEffect : shootSmall
+            lifetime : 999
+        }
     }
-}
-requirements : [
-    etigeum-charged/500
-    titanium/3000
-    silicon/250
-    graphene/120
-]
-category: turret
-research: foreshadow
+    requirements : [
+        etigeum-charged/500
+        titanium/3000
+        silicon/250
+        graphene/120
+    ]
+    category: turret
+    research: foreshadow
 }
 

@@ -1,40 +1,40 @@
 {
-localizedName : QEW-AR Equinox Star
-description : A long range commanding Assault Rifle.
-type : PowerTurret
-size : 2
-health : 250
-reloadTime : 6.5
-range : 420
-targetAir : true
-targetGround : true
-rotateSpeed : 2
-inaccuracy : 2
-recoilAmount : 7
-restitution : 2
-cooldown : 5
-spread : 4
-shots : 2
-shootSound : lasershoot
-hasPower : true
-powerUse : 5
-shootType : {
-    type : BasicBulletType
-    speed : 60
-    damage : 18
-    height : 2
-    width : 1
-    hitEffect : hitLaser
-    pierce : true
-    lifetime : 999
-}
-requirements : [
-    etigeum-charged/250
-    etigeum-refined/500
-    titanium/700
-    silicon/100
-]
-category: turret
-research: spectre
+    localizedName : QEW-AR Equinox Star
+    description : A long range commanding Assault Rifle.
+    type : PowerTurret
+    size : 2
+    health : 250
+    reloadTime : 6.5
+    range : 420
+    targetAir : true
+    targetGround : true
+    rotateSpeed : 2
+    inaccuracy : 2
+    recoilAmount : 7
+    restitution : 2
+    cooldown : 5
+    spread : 4
+    shots : 2
+    shootSound : lasershoot
+    hasPower : true
+    powerUse : 5
+    shootType : {
+        type : BasicBulletType
+        speed : 60
+        damage : 18
+        height : 2
+        width : 1
+        hitEffect : hitLaser
+        pierce : true
+        lifetime : 999
+    }
+    requirements : [
+        etigeum-charged/250
+        etigeum-refined/500
+        titanium/700
+        silicon/100
+    ]
+    category: turret
+    research: spectre
 }
 

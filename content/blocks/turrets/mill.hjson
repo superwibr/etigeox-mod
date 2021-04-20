@@ -1,41 +1,41 @@
 {
-localizedName : QEW-HMG Mill
-description : A turret with godly stats. Well...
-type : PowerTurret
-size : 3
-health : 350
-reloadTime : 0.83
-range : 450
-targetAir : false
-targetGround : true
-rotateSpeed : 0.8
-inaccuracy : 88
-recoilAmount : 15
-restitution : 2
-cooldown : 5
-spread : 4
-shootSound : lasershoot
-hasPower : true
-powerUse : 13.33
-shots : 3
-shootType : {
-    type : BasicBulletType
-    speed : 5
-    damage : 109
-    height : 2
-    width : 1
-    hitEffect : hitLaser
-    pierce : true
-    lifetime : 999
-}
-requirements : [
-    etigeum-charged/3000
-    etigeum-refined/5000
-    titanium/7000
-    thorium/6000
-    surge-alloy/3000
-]
-category: turret
-research: spectre
+    localizedName : QEW-HMG Mill
+    description : A turret with godly stats. Well...
+    type : PowerTurret
+    size : 3
+    health : 350
+    reloadTime : 0.83
+    range : 450
+    targetAir : false
+    targetGround : true
+    rotateSpeed : 0.8
+    inaccuracy : 88
+    recoilAmount : 15
+    restitution : 2
+    cooldown : 5
+    spread : 4
+    shootSound : lasershoot
+    hasPower : true
+    powerUse : 13.33
+    shots : 3
+    shootType : {
+        type : BasicBulletType
+        speed : 5
+        damage : 109
+        height : 2
+        width : 1
+        hitEffect : hitLaser
+        pierce : true
+        lifetime : 999
+    }
+    requirements : [
+        etigeum-charged/3000
+        etigeum-refined/5000
+        titanium/7000
+        thorium/6000
+        surge-alloy/3000
+    ]
+    category: turret
+    research: spectre
 }
 

@@ -1,40 +1,40 @@
 {
-localizedName : QEW-AR Cloudscape
-description : Death from the skies ? No. DEATH TO THE SKIES !
-type : PowerTurret
-size : 2
-health : 350
-reloadTime : 5
-range : 250
-targetAir : true
-targetGround : false
-rotateSpeed : 2
-inaccuracy : 1
-recoilAmount : 5
-restitution : 2
-cooldown : 5
-spread : 10
-shootSound : lasershoot
-hasPower : true
-powerUse : 5
-shootType : {
-    type : BasicBulletType
-    speed : 60
-    damage : 98
-    height : 2
-    width : 1
-    hitEffect : hitLaser
-    pierce : true
-    lifetime : 999
-}
+    localizedName : QEW-AR Cloudscape
+    description : Death from the skies ? No. DEATH TO THE SKIES !
+    type : PowerTurret
+    size : 2
+    health : 350
+    reloadTime : 5
+    range : 250
+    targetAir : true
+    targetGround : false
+    rotateSpeed : 2
+    inaccuracy : 1
+    recoilAmount : 5
+    restitution : 2
+    cooldown : 5
+    spread : 10
+    shootSound : lasershoot
+    hasPower : true
+    powerUse : 5
+    shootType : {
+        type : BasicBulletType
+        speed : 60
+        damage : 98
+        height : 2
+        width : 1
+        hitEffect : hitLaser
+        pierce : true
+        lifetime : 999
+    }
 
-requirements : [
-    etigeum-charged/200
-    etigeum-refined/400
-    titanium/800
-    thorium/500
-]
-category: turret
-research: scatter
+    requirements : [
+        etigeum-charged/200
+        etigeum-refined/400
+        titanium/800
+        thorium/500
+    ]
+    category: turret
+    research: scatter
 }
 

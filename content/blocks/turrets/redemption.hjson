@@ -1,56 +1,56 @@
 {
-localizedName : QEW-ERF Redemption
-description : Top of the experimental cross.
-type : ItemTurret
-size : 4
-health : 777
-reloadTime : 14
-range : 470
-targetAir : true
-targetGround : true
-rotateSpeed : 7
-inaccuracy : 7
-recoilAmount : 12
-restitution : 2
-cooldown : 5
-spread : 1
-shots :  7
-shootSound : lasershoot
-maxAmmo : 7000
-ammoTypes : {
-    etigeum-magazine : {
-        type : BasicBulletType
-        damage : 999
-        speed : 0.7
-        height : 7
-        width : 5
-        shootEffect : generatespark
-        smokeEffect : steam
-        hitEffect : nuclearShockwave
-        lifetime : 999
-        ammoMultiplier : 28
+    localizedName : QEW-ERF Redemption
+    description : Top of the experimental cross.
+    type : ItemTurret
+    size : 4
+    health : 777
+    reloadTime : 14
+    range : 470
+    targetAir : true
+    targetGround : true
+    rotateSpeed : 7
+    inaccuracy : 7
+    recoilAmount : 12
+    restitution : 2
+    cooldown : 5
+    spread : 1
+    shots :  7
+    shootSound : lasershoot
+    maxAmmo : 7000
+    ammoTypes : {
+        etigeum-magazine : {
+            type : BasicBulletType
+            damage : 999
+            speed : 0.7
+            height : 7
+            width : 5
+            shootEffect : generatespark
+            smokeEffect : steam
+            hitEffect : nuclearShockwave
+            lifetime : 999
+            ammoMultiplier : 28
+        }
+        surge-alloy : {
+            type : BasicBulletType
+            damage : 777
+            speed : 4
+            height : 9
+            width : 7
+            shootEffect : generatespark
+            smokeEffect : steam
+            hitEffect : nuclearShockwave
+            lifetime : 999
+            ammoMultiplier : 7
+        }
     }
-    surge-alloy : {
-        type : BasicBulletType
-        damage : 777
-        speed : 4
-        height : 9
-        width : 7
-        shootEffect : generatespark
-        smokeEffect : steam
-        hitEffect : nuclearShockwave
-        lifetime : 999
-        ammoMultiplier : 7
-    }
-}
-    requirements : [
-    etigeum-charged/1000
-    etigeum-refined/2500
-    titanium/4500
-    thorium/3000
-    surge-alloy/2000
-    silicon/3000
-]
-category: turret
-research: shadowofremorse
+        requirements : [
+        etigeum-charged/1000
+        etigeum-refined/2500
+        titanium/4500
+        thorium/3000
+        surge-alloy/2000
+        silicon/3000
+    ]
+    category: turret
+    research: shadowofremorse
 }

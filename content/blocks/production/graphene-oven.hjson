@@ -1,30 +1,30 @@
 {
-localizedName: GenericSmelter
-name: Graphene Oven
-description: Cooks graphite into graphene.
-health: 80
-liquidCapacity: 0
-size: 2
-hasPower: true
-hasLiquids: false
-hasItems: true
-craftTime: 30
-updateEffect: plasticburn
-consumes: {
-  power: 0.16
-    items:{
-     items:[
-      graphite/1
-      ]
-   }
-}
-requirements: [
-  lead/100
-  titanium/30
-  silicon/70
-  graphite/80
-]
-category: crafting
-research: alloy-smelter
-outputItem: graphene/1
+  localizedName: GenericSmelter
+  name: Graphene Oven
+  description: Cooks graphite into graphene.
+  health: 80
+  liquidCapacity: 0
+  size: 2
+  hasPower: true
+  hasLiquids: false
+  hasItems: true
+  craftTime: 30
+  updateEffect: plasticburn
+  consumes: {
+    power: 0.16
+      items:{
+      items:[
+        graphite/1
+        ]
+    }
+  }
+  requirements: [
+    lead/100
+    titanium/30
+    silicon/70
+    graphite/80
+  ]
+  category: crafting
+  research: alloy-smelter
+  outputItem: graphene/1
 }

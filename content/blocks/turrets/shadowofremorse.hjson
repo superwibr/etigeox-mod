@@ -1,48 +1,48 @@
 {
-localizedName : UEA-SMG Shadow of Remorse
-description : An elite Ultra-Etigeox weapon.
-type : ItemTurret
-size : 1
-health : 350
-reloadTime : 0.01
-range : 450
-targetAir : false
-targetGround : true
-rotateSpeed : 20
-inaccuracy : 26
-recoilAmount : 7
-restitution : 2
-cooldown : 5
-spread : 4
-shootSound : lasershoot
-hasPower : true
-powerUse : 9
-maxAmmo : 50000
-ammoTypes : {
-    etigeum-magazine : {
-        type : BasicBulletType
-        damage : 30
-        speed : 2
-        height : 1
-        width : 1
-        shootEffect : generatespark
-        smokeEffect : steam
-        hitEffect : nuclearShockwave
-        lifetime : 999
-        ammoMultiplier : 5000
+    localizedName : UEA-SMG Shadow of Remorse
+    description : An elite Ultra-Etigeox weapon.
+    type : ItemTurret
+    size : 1
+    health : 350
+    reloadTime : 0.01
+    range : 450
+    targetAir : false
+    targetGround : true
+    rotateSpeed : 20
+    inaccuracy : 26
+    recoilAmount : 7
+    restitution : 2
+    cooldown : 5
+    spread : 4
+    shootSound : lasershoot
+    hasPower : true
+    powerUse : 9
+    maxAmmo : 50000
+    ammoTypes : {
+        etigeum-magazine : {
+            type : BasicBulletType
+            damage : 30
+            speed : 2
+            height : 1
+            width : 1
+            shootEffect : generatespark
+            smokeEffect : steam
+            hitEffect : nuclearShockwave
+            lifetime : 999
+            ammoMultiplier : 5000
+        }
     }
-}
-requirements : [
-    etigeum-charged/5000
-    etigeum-refined/1000
-    titanium/8000
-    thorium/5000
-    surge-alloy/7000
-    silicon/3000
-    graphite/3000
-    graphene/3000
-]
-category: turret
-research: chainsaw
+    requirements : [
+        etigeum-charged/5000
+        etigeum-refined/1000
+        titanium/8000
+        thorium/5000
+        surge-alloy/7000
+        silicon/3000
+        graphite/3000
+        graphene/3000
+    ]
+    category: turret
+    research: chainsaw
 }
 

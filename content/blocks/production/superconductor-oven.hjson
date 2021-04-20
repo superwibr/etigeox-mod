@@ -1,33 +1,33 @@
 {
-type: GenericSmelter
-localizedName: Superconductor Oven
-description: Mixes metals into superconductor.
-health: 100
-liquidCapacity: 0
-size: 3
-hasPower: true
-hasLiquids: false
-hasItems: true
-craftTime: 30
-updateEffect: plasticburn
-consumes: {
-  power: 1.66
-    items:{
-     items:[
-      metaglass/5
-      titanium/2
-      lead/2
-      copper/1
-      ]
-   }
-}
-requirements: [
-  lead/100
-  titanium/30
-  silicon/70
-  graphene/80
-]
-category: crafting
-research: graphene-oven
-outputItem: superconductor/1
+  type: GenericSmelter
+  localizedName: Superconductor Oven
+  description: Mixes metals into superconductor.
+  health: 100
+  liquidCapacity: 0
+  size: 3
+  hasPower: true
+  hasLiquids: false
+  hasItems: true
+  craftTime: 30
+  updateEffect: plasticburn
+  consumes: {
+    power: 1.66
+      items:{
+      items:[
+        metaglass/5
+        titanium/2
+        lead/2
+        copper/1
+        ]
+    }
+  }
+  requirements: [
+    lead/100
+    titanium/30
+    silicon/70
+    graphene/80
+  ]
+  category: crafting
+  research: graphene-oven
+  outputItem: superconductor/1
 }
