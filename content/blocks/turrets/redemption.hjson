@@ -4,7 +4,7 @@
     type : ItemTurret
     size : 4
     health : 777
-    reloadTime : 14
+    reloadTime : 28 
     range : 470
     targetAir : true
     targetGround : true
@@ -20,7 +20,7 @@
     ammoTypes : {
         etigeum-magazine : {
             type : BasicBulletType
-            damage : 999
+            damage : 99
             speed : 7
             height : 7
             width : 5
@@ -32,7 +32,7 @@
         }
         surge-alloy : {
             type : BasicBulletType
-            damage : 777
+            damage : 77
             speed : 4
             height : 9
             width : 7
