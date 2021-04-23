@@ -1,0 +1,24 @@
+{
+  localizedName : Laser Turret
+  description : -Disintegrates incoming projectiles before they hit nearby units -Requires time to recharge if overwhelmed -Upgradable
+  type: pointDefenseTurret
+  size : 2
+  health : 500
+  range : 300
+  hasPower: true
+  shootLength: 14
+  bulletDamage: 0
+  reloadTime: 4
+  consumes:{
+      power:6
+ }
+ requirements:[
+   phase-fabric/100
+   plastanium/5
+   etigeum-charged/200
+   etigeum-refined/120
+ ]
+ category: turret
+ research: segment
+
+}
