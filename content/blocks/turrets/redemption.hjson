@@ -21,7 +21,7 @@
         etigeum-magazine : {
             type : BasicBulletType
             damage : 999
-            speed : 0.7
+            speed : 7
             height : 7
             width : 5
             shootEffect : generatespark

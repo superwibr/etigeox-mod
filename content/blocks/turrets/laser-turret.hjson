@@ -4,13 +4,13 @@
   type: pointDefenseTurret
   size : 2
   health : 500
-  range : 300
+  range : 180
   hasPower: true
   shootLength: 14
   bulletDamage: 0
   reloadTime: 4
   consumes:{
-      power:6
+      power:12
  }
  requirements:[
    phase-fabric/100
