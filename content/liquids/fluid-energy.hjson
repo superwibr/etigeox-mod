@@ -1,14 +1,14 @@
 {
     localizedName: Fluid Energy
-    description: We still don't know why this exists, but we can use it to power weapons.
-    temperature: 1
+    description: We still don't know why this exists, but we can use it to power things.
+    temperature: 100
     viscosity: 0
     heatCapacity: 3
     color: 17d1c2
     research: {
         parent: cryofluid,
         requirements: [
-            etigeum/1
+            etigeum-charged/1
         ]
     }
 }
