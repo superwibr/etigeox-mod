@@ -3,7 +3,7 @@
     description: Makes Etigeum Ammo.
     type: "GenericSmelter"
     health: 380
-    size: 2
+    size: 3
     hasPower: true
     hasLiquids: true
     hasItems: true
