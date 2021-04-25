@@ -4,7 +4,7 @@
   type: pointDefenseTurret
   size : 2
   health : 500
-  range : 180
+  range : 80
   hasPower: true
   shootLength: 14
   bulletDamage: 0
