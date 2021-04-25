@@ -1,0 +1,39 @@
+{
+    localizedName : QEW-SMG Werteck
+    description : An older rapid firing relatively cheap turret.
+    type : PowerTurret
+    size : 2
+    health : 250
+    reloadTime : 5
+    range : 150
+    targetAir : true
+    targetGround : true
+    rotateSpeed : 1.5
+    inaccuracy : 2
+    recoilAmount : 7
+    restitution : 2
+    cooldown : 5
+    spread : 4
+    shots : 3
+    shootSound : lasershoot
+    hasPower : true
+    powerUse : 5
+    shootType : {
+        type : BasicBulletType
+        speed : 60
+        damage : 6
+        height : 2
+        width : 1
+        hitEffect : hitLaser
+        pierce : true
+        lifetime : 999
+    }
+    requirements : [
+        lead/600
+        titanium/600
+        silicon/100
+    ]
+    category: turret
+    research: spectre
+}
+
