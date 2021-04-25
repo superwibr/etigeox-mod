@@ -1,0 +1,43 @@
+{
+    localizedName: Driver
+    description: "Shoots massive cones of bullets"
+    type : ItemTurret
+    size : 3
+    health : 500
+    reloadTime : 160
+    range : 300
+    targetAir : false
+    targetGround : true
+    rotateSpeed : 1
+    inaccuracy : 2
+    recoilAmount : 0.5
+    cooldown : 5
+    spread : 1
+    shots : 2
+    shootSound : shotgun
+    maxAmmo : 5
+    ammoPerShot : -1
+    ammoTypes : {
+        etigeum-magazine : {
+            type : fragGlass
+            damage : 3000
+            speed : 3
+            height : 10
+            width : 5
+            shootEffect : generatespark
+            smokeEffect : steam
+            hitEffect : nuclearShockwave
+            lifetime : 999
+        }
+    }
+    requirements : [
+        etigeum-refined/1100
+        titanium/3000
+        thorium/500
+        surge-alloy/700
+        silicon/300
+        graphene/300
+    ]
+    category: turret
+    research: carthiage
+}
