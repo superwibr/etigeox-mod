@@ -3,9 +3,9 @@
     description : Only through bloodshed and shattering can one see its true strenght.
     type : PowerTurret
     size : 3
-    health : 350
+    health : 450
     reloadTime : 0.6
-    range : 250
+    range : 280
     targetAir : false
     targetGround : true
     rotateSpeed : 0.8
@@ -14,10 +14,10 @@
     restitution : 2
     cooldown : 5
     spread : 4
-    shots : 2
+    shots : 3
     shootSound : lasershoot
     hasPower : true
-    powerUse : 5
+    powerUse : 7
     shootType : {
         type : BasicBulletType
         speed : 60
