@@ -1,0 +1,66 @@
+{
+    localizedName : UEA-HML Carthiage Υ
+    description : Following orders will only lead to a downfall.
+    type : ItemTurret
+    size : 3
+    health : 500
+    reloadTime : 180
+    range : 400
+    targetAir : false
+    targetGround : true
+    rotateSpeed : 1
+    inaccuracy : 2
+    recoilAmount : 5
+    restitution : 2
+    cooldown : 5
+    spread : 10
+    shots : 6
+    shootSound : shootBig
+    maxAmmo : 16
+    ammoPerShot : 2
+    ammoTypes : {
+        blast-compound : {
+            type : missileExplosive
+            damage : 3200
+            splashDamageRadius : 100
+            splashDamage : 1900
+            speed : 2
+            height : 20
+            width : 20
+            homingPower : 1
+            homingRange : 1
+            shootEffect : generatespark
+            smokeEffect : steam
+            hitEffect : nuclearShockwave
+            lifetime : 999
+        }
+        pyratite : {
+            type : missileExplosive
+            damage : 2400
+            splashDamageRadius : 65
+            splashDamage : 1200
+            speed : 2
+            height : 20
+            width : 20
+            homingPower : 1
+            homingRange : 1
+            shootEffect : generatespark
+            smokeEffect : steam
+            hitEffect : nuclearShockwave
+            lifetime : 999
+        }
+    }
+    requirements : [
+        etigeum-charged/800
+        etigeum-refined/1100
+        titanium/3700
+        thorium/5000
+        surge-alloy/700
+        silicon/3000
+        graphite/3000
+        graphene/300
+    ]
+    category: turret
+    research: foreshadow
+}
+
