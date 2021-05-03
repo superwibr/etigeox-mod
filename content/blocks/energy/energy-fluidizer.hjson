@@ -15,5 +15,5 @@
         fluid-energy/1
     ]
     craftEffect: steam
-    category: crafting
+    category: power
 }
