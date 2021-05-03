@@ -14,6 +14,14 @@
     OutputLiquid: [
         fluid-energy/1
     ]
+    requirements: [
+        titanium/50
+        thorium/5
+        metaglass/10
+        silicon/100
+        graphene/100
+        superconductor/10
+    ]
     craftEffect: steam
     category: power
     research: etigeum-core
