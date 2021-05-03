@@ -5,15 +5,17 @@
     plantColor: 00b9c6
     plantColorLight: 17d1c2
     size: 2
-    inputItem: [
-        etigeum-charged/1
-    ]
-    OutputItem: [ 
-        etigeum-depleted/1 
-    ]
-    OutputLiquid: [
-        fluid-energy/1
-    ]
+    hasLiquids: true
+    consumes:{
+        items:{
+            items: [
+                etigeum-charged/1
+            ]
+        }
+    }
+    outputItem: etigeum-depleted/1
+    outputLiquid: fluid-energy/10
+    liquidCapacity: 100
     requirements: [
         titanium/50
         thorium/5
