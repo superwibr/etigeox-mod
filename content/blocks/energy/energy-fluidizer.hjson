@@ -16,4 +16,5 @@
     ]
     craftEffect: steam
     category: power
+    research: etigeum-core
 }
