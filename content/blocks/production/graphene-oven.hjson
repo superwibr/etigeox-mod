@@ -1,6 +1,7 @@
 {
   localizedName: Graphene Oven
   description: Cooks graphite into graphene.
+  type: GenericSmelter
   health: 80
   liquidCapacity: 0
   size: 2
