@@ -31,5 +31,5 @@
         graphite/100
     ]
     category: power
-    research: impact-reactor //impact makes 6k, this makes 600
+    research: "impact-reactor" //impact makes 6k, this makes 600
 }
