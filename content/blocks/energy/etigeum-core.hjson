@@ -9,11 +9,11 @@
     hasItems: true
     craftTime: 20
     itemCapacity: 100
-    powerCapacity: 10
+    powerCapacity: 100
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
     outputItem: etigeum-depleted/3
-    powerProduction: 10
+    powerProduction: 100
     consumes: {
         items: {
             items:[
