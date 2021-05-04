@@ -21,7 +21,7 @@
         }
         liquid: water/0.05
         
-    },
+    }
     requirements: [
         titanium/200
         thorium/5
