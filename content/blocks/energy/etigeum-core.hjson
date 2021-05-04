@@ -22,8 +22,6 @@
         liquid: water/0.05
         
     }
-    powerProduction: 10
-    itemDuration: 60
     requirements: [
         titanium/200
         thorium/5
