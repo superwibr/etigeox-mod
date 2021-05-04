@@ -1,6 +1,6 @@
 {
     localizedName: Supercharged Pinpoint Etigeum Drill
-    description: A drill that , although smaller , is more precise than its competitors and thus a drill that wields higher ammounts of ressources at a faster pace.
+    description: A drill that, although smaller, is more precise than its competitors. It yields higher amounts of resources at a faster pace.
     health: 300
     type: drill
     size: 2
@@ -13,11 +13,11 @@
     consumes : {
         power: 9
         liquid: {
-			liquid: water
-			amount: 0.05
-			optional: true
-			booster: true
-		}
+          liquid: water
+          amount: 0.05
+          optional: true
+          booster: true
+        }
     },
     requirements: [
         etigeum-charged/90

@@ -12,10 +12,10 @@
   updateEffect: plasticburn
   consumes: {
     power: 0.16
-      items:{
+    items:{
       items:[
         graphite/1
-        ]
+      ]
     }
   }
   requirements: [

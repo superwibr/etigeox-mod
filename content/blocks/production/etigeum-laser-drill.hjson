@@ -1,6 +1,6 @@
 {
     localizedName: Etigeum Laser Drill
-    description: A specialised laser drill using Etigeum to spit out larger quantities of ressources but still needs plenty of energy.
+    description: A specialised laser drill using Etigeum to spit out larger quantities of resources but still needs plenty of energy.
     health: 300
     type: drill
     size: 3
@@ -13,11 +13,11 @@
     consumes : {
         power: 5
         liquid: {
-			liquid: water
-			amount: 0.2
-			optional: true
-			booster: true
-		}
+          liquid: water
+          amount: 0.2
+          optional: true
+          booster: true
+        }
     }
     requirements: [
         etigeum-refined/90
