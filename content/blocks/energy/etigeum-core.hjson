@@ -13,7 +13,6 @@
     craftEffect: "plasticExplosion"
     outputItem: etigeum-depleted/3
     consumes: {
-        power: -10
         items: {
             items:[
                 etigeum-charged/3
@@ -22,6 +21,8 @@
         liquid: water/0.05
         
     }
+    powerProduction: 10
+    itemDuration: 60
     requirements: [
         titanium/200
         thorium/5
