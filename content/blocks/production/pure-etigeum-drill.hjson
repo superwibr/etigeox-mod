@@ -13,9 +13,9 @@
     consumes : {
         power: 13
         liquid: {
-			liquid: water
-			amount: 0.15
-		}
+          liquid: water
+          amount: 0.15
+        }
     },
     requirements: [
         etigeum-charged/90
