@@ -1,7 +1,7 @@
 {
     localizedName: Supercharged Etigeum Conveyor
     type: conveyor
-    description: An Etigeum powered conveyor , a powerful , mighty and holy Supercharged Etigeum Conveyor , should be able to satisfy all your transportation needs. Note that the conveyor is actually faster than what your eyes can see.
+    description: An Etigeum powered conveyor, a powerful, mighty and holy Supercharged Etigeum Conveyor , should be able to satisfy all your transportation needs. Note that the conveyor is actually faster than what your eyes can see.
     health: 190
     size: 1
     requirements: [

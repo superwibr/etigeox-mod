@@ -1,7 +1,7 @@
 {
     localizedName: Etigeum Core
     description: Generates great amounts of power from all kinds of etigeum and outputs depleted etigeum which is unusable.
-    type: "GenericSmelter"
+    type: "PowerGenerator"
     health: 380
     size: 2
     hasPower: true
@@ -12,8 +12,8 @@
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
     outputItem: etigeum-depleted/3
+    powerProduction: 10
     consumes: {
-        power: -10
         items: {
             items:[
                 etigeum-charged/3
@@ -30,5 +30,5 @@
         graphite/100
     ]
     category: power
-    research: impact-reactor
+    research: impact-reactor //impact makes 6k, this makes 600
 }

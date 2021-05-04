@@ -12,8 +12,8 @@
         lead/10
         graphene/10
     ]
-    laserColor2: 6cd5f5
     laserColor1: 6cd5f5
+    laserColor2: 6cd5f5 //this is for negative power
     research: surge-tower
     category: power
 }
