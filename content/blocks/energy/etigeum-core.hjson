@@ -15,7 +15,7 @@
     outputItem: etigeum-depleted/3
     powerProduction: 100
     consumes: {
-        power: -100 // yes, negative power. Don't touch it, it's the only way this works
+        power: -100 // yes, negative power. Don't touch it, it's the only way this works.
         items: {
             items:[
                 etigeum-charged/3
