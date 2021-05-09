@@ -1,1 +1,3 @@
 How many sprites did you just recolor?
+
+answer : 5
