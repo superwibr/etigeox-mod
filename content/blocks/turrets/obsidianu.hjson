@@ -1,0 +1,48 @@
+{
+    localizedName : UEA-HESG Obsidian Υ
+    description : An heavy breathrough shotgun. Low range but devastating.
+    type : ItemTurret
+    size : 4
+    health : 3000
+    reloadTime : 96
+    range : 120
+    targetAir : true
+    targetGround : true
+    rotateSpeed : 4
+    inaccuracy : 18
+    recoilAmount : 18
+    restitution : 2
+    cooldown : 5
+    spread : 0
+    shootSound : lasershoot
+    shots : 10
+    maxAmmo : 1400
+    ammoTypes : {
+        etigeum-magazine : {
+            type : BasicBulletType
+            damage : 130
+            splashDamageRadius : 10
+            splashDamage : 40
+            speed : 5
+            height : 4
+            width : 4
+            shootEffect : generatespark
+            smokeEffect : steam
+            hitEffect : nuclearShockwave
+            knockback : 4
+            pierce : true
+            lifetime : 999
+            ammoMultiplier : 64
+        }
+    }
+    requirements : [
+        etigeum-charged/700
+        etigeum-refined/1250
+        etigeum-depleted/1250
+        titanium/2500
+        thorium/500
+        surge-alloy/1500
+    ]
+    category: turret
+    research: duo
+}
