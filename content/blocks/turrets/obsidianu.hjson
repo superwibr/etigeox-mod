@@ -36,11 +36,11 @@
         }
     }
     requirements : [
-        etigeum-charged/700
+        etigeum-charged/1200
         etigeum-refined/1250
         etigeum-depleted/1250
-        titanium/2500
-        thorium/500
+        titanium/4500
+        thorium/700
         surge-alloy/1500
     ]
     category: turret
