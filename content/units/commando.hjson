@@ -17,7 +17,7 @@ weapons: [
         bullet: standardIncendiary
     },
     {
-        name: heavy-middle-artillery1
+        localizedName: commandotest
         reload: 60
         shots: 2
         spacing: 5
