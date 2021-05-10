@@ -16,7 +16,7 @@
         power: 100,
         items: {
             items:[
-                etigeum-raw/3
+                etigeum/3
             ]
         }
         liquid: water/0.15
