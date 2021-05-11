@@ -2,7 +2,9 @@
     localizedName: summoner
     configurable: true
     category: logic
-    requirements : titanium/80
+    requirements : [
+        sprite/1
+    ]
     size: 2
     destructible: true
 }
