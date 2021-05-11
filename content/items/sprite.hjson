@@ -1,0 +1,8 @@
+{
+    localizedName: Sprite
+    description: Raw Etigeum straight from the ground. You might have to refine this material first.
+    type: material
+    cost: 2.5
+    color: 09e0dd,
+    hardness: 5
+}

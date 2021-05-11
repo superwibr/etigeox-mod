@@ -1,7 +1,7 @@
 {
     localizedName : Etigeum Reinforced Mender
     type : MendProjector
-    health : 2000 //Note: a surge wall has 230 health
+    health : 420 //Note: a surge wall has 230 health
     size : 1
     hasPower : true
     powerUse : 3.25
