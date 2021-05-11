@@ -1,7 +1,7 @@
 {
     localizedName : Large Etigeum Reinforced Wall
     type : wall
-    health : 4600
+    health : 5200
     size : 2
     requirements : [
         etigeum-depleted/20

@@ -18,6 +18,10 @@
             items:[
                 etigeum/3
             ]
+        items: {
+            items:[
+                etigeum/3
+            ]            
         }
         liquid: water/0.15
     },
