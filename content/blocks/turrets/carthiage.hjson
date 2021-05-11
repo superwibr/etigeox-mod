@@ -51,8 +51,8 @@
         }
     }
     requirements : [
-        etigeum-charged/500
-        etigeum-refined/1100
+        etigeum-charged/600
+        etigeum-refined/700
         titanium/3000
         thorium/500
         surge-alloy/700

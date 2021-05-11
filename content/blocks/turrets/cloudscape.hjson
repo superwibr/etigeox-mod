@@ -29,10 +29,10 @@
     }
 
     requirements : [
-        etigeum-charged/200
-        etigeum-refined/400
-        titanium/800
-        thorium/500
+        etigeum-charged/100
+        etigeum-refined/200
+        titanium/200
+        thorium/100
     ]
     category: turret
     research: scatter
