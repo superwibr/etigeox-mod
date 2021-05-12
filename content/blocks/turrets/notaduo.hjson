@@ -15,6 +15,7 @@
         items: {
             items: [
             scrap/10
+            sprite/1
             ]
         }
     }

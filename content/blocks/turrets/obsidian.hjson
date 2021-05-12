@@ -29,17 +29,17 @@
             hitEffect : nuclearShockwave
             knockback : 4
             pierce : true
-            lifetime : 999
+            lifetime : 3
             ammoMultiplier : 64
         }
     }
     requirements : [
-        etigeum-charged/700
-        etigeum-refined/1250
-        etigeum-depleted/1250
-        titanium/2500
-        thorium/500
-        surge-alloy/1500
+        etigeum-charged/550
+        etigeum-refined/500
+        etigeum-depleted/800
+        titanium/1200
+        thorium/800
+        surge-alloy/600
     ]
     category: turret
     research: duo

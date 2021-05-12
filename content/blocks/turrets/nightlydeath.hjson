@@ -21,21 +21,20 @@
     ammoTypes : {
         etigeum-magazine : {
             type : BasicBulletType
-            damage : 3000
-            speed : 4
-            height : 4
-            width : 2
-            homingPower : 1
-            homingRange : 1
+            damage : 1400
+            speed : 3
+            height : 1
+            width : 1
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : shootSmall
-            lifetime : 999
+            lifetime : 10
+            ammoMultiplier : 10
         }
     }
     requirements : [
-        etigeum-charged/500
-        titanium/3000
+        etigeum-charged/100
+        titanium/300
         silicon/250
         graphene/120
     ]

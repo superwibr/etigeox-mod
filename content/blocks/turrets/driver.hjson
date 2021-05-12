@@ -37,6 +37,7 @@
         surge-alloy/700
         silicon/300
         graphene/300
+        sprite/1
     ]
     category: turret
     research: carthiage

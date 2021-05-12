@@ -1,5 +1,5 @@
 {
-    localizedName : UEA-AR Equinox Star Υ
+    localizedName : UEA-AR Equinox Star Y
     description : A long range commanding Assault Rifle.
     type : PowerTurret
     size : 2
@@ -26,13 +26,13 @@
         width : 1
         hitEffect : hitLaser
         pierce : true
-        lifetime : 999
+        lifetime : 5
     }
     requirements : [
-        etigeum-charged/400
-        etigeum-refined/800
-        titanium/600
-        silicon/600
+        etigeum-charged/150
+        etigeum-refined/300
+        titanium/200
+        silicon/150
     ]
     category: turret
     research: spectre

@@ -30,7 +30,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 999
+            lifetime : 30
         }
         pyratite : {
             type : missileExplosive
@@ -43,7 +43,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 999
+            lifetime : 40
         }
         etigeum-magazine : {
             type : missileExplosive
@@ -56,16 +56,11 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 999
+            lifetime : 40
         }
     }
     requirements : [
-        etigeum-charged/500
-        surge-alloy/500
-        etigeum-refined/500
-        scrap/500
-        sand/500
-        coal/500
+        sprite/1
     ]
     category: turret
     research: carthiage

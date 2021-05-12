@@ -26,7 +26,7 @@
         width : 1
         hitEffect : hitLaser
         pierce : true
-        lifetime : 999
+        lifetime : 300
     }
     requirements : [
         lead/600

@@ -25,14 +25,14 @@
         width : 1
         hitEffect : hitLaser
         pierce : true
-        lifetime : 999
+        lifetime : 8
     }
 
     requirements : [
         etigeum-charged/100
         etigeum-refined/200
-        titanium/200
-        thorium/100
+        titanium/150
+        silicon/100
     ]
     category: turret
     research: scatter
