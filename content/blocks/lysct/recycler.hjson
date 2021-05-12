@@ -9,6 +9,7 @@
     hasItems: true
     craftTime: 20
     itemCapacity: 100
+	liquidCapacity: 100
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
     consumes: {
@@ -20,12 +21,12 @@
 		}
 		liquid: {
           liquid: cryofluid
-          amount: 0.2
+          amount: 10
           optional: false
           booster: true
         }
     },
-	outputItem: [
+	/*outputItem: [
 		scrap/1
 		copper/1
 		lead/1
@@ -37,7 +38,8 @@
 		silicon/1
 		metaglass/1
 		plastanium/1
-	]
+	]*/
+	outputLiquid: hot-cryofluid/10
     requirements: [
         titanium/200
         superconductor/5
