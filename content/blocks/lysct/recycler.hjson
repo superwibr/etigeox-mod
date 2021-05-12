@@ -1,0 +1,49 @@
+{
+	localizedName: LYSCT-011 Item Recycler
+	description: Takes in scrap and turns it into one of every standard item.
+	type: GenericCrafter
+	health: 380
+    size: 4
+    hasPower: true
+    hasLiquids: true
+    hasItems: true
+    craftTime: 20
+    itemCapacity: 100
+    updateEffect: "steam"
+    craftEffect: "plasticExplosion"
+    consumes: {
+        power: 100,
+        items: {
+            items:[
+                scrap/100
+            ]
+		}
+		liquid: {
+          liquid: cryofluid
+          amount: 0.2
+          optional: false
+          booster: true
+        }
+    },
+	outputItem: [
+		scrap/1
+		copper/1
+		lead/1
+		titanium/1
+		thorium/1
+		surge-alloy/1
+		phase-fabric/1
+		graphite/1
+		silicon/1
+		metaglass/1
+		plastanium/1
+	]
+    requirements: [
+        titanium/200
+        superconductor/5
+        metaglass/50
+        silicon/10
+        graphite/100
+    ],
+    category: crafting
+}

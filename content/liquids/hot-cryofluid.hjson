@@ -1,0 +1,14 @@
+{
+    localizedName: Hot Cryofluid
+    description: Obeying physics by having the coolant not vanish into the void.
+    temperature: 100
+    viscosity: 0
+    heatCapacity: 100
+    color: f56042
+    research: {
+        parent: cryofluid,
+        requirements: [
+            etigeum-refined/1
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+	localizedName: LYSCT-001 Heat sync
+	description: Slowly cools down hot cryofluid.
+	type: GenericCrafter
+	updateEffect: "steam"
+	outputLiquid: cryofluid/0.2
+	consumes: {
+		liquid: {
+          liquid: cryofluid
+          amount: 0.2
+        }
+	}
+}
