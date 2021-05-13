@@ -1,7 +1,7 @@
 {
-    localizedName: Etigeum Core
+    localizedName: Etigeum Core x2
     description: Currently unusable - Generates great amounts of power from all kinds of etigeum and outputs depleted etigeum which is unusable. 
-    type: "GenericSmelter"
+    type: "SingleTypeGenerator"
     health: 380
     size: 2
     hasPower: true
@@ -18,7 +18,7 @@
         power: 0 // no
         items: {
             items:[
-                etigeum-charged/1
+                etigeum-charged/2
             ]
         }
         liquid: water/0.05
