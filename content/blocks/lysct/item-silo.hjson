@@ -1,0 +1,18 @@
+{
+	localizedName: LYSCT-100 Item silo
+	description: 4*4 container with more capacity than vault.
+	type: block
+	size: 4
+	health: 480
+	buildTime: 33
+	hasItems: true
+	hasLiquids: false
+	hasPower: false
+	itemCapacity: 1333
+	requirements: [
+		titanium/333
+		thorium/200
+	]
+	category: effect
+	research: vault
+}
