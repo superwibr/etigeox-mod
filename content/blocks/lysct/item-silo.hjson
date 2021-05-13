@@ -11,7 +11,7 @@
 	hasItems: true
 	hasLiquids: false
 	hasPower: false
-	itemCapacity: 1333
+	itemCapacity: 2000
 	requirements: [
 		titanium/333
 		thorium/200
