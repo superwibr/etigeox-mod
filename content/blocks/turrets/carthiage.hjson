@@ -6,6 +6,7 @@
     health : 350
     reloadTime : 160
     range : 350
+    craftTime : 60
     targetAir : false
     targetGround : true
     rotateSpeed : 1

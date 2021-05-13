@@ -13,7 +13,6 @@
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
     outputItem: etigeum-depleted/3
-    outputItem: sprite/3
     powerProduction: 100
     consumes: {
         power: 0 // no
