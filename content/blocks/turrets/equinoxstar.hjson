@@ -4,7 +4,7 @@
     type : PowerTurret
     size : 2
     health : 250
-    reloadTime : 6.5
+    reloadTime : 14.5
     range : 250
     targetAir : true
     targetGround : true
@@ -17,7 +17,7 @@
     shots : 2
     shootSound : lasershoot
     hasPower : true
-    powerUse : 5
+    powerUse : 6
     shootType : {
         type : BasicBulletType
         speed : 60
