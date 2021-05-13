@@ -3,6 +3,9 @@
 	description: 4*4 container with more capacity than vault.
 	type: block
 	size: 4
+	destructible: true
+	breakable: true
+	solid: true
 	health: 480
 	buildTime: 33
 	hasItems: true
