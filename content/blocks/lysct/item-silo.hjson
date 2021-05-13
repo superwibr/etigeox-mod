@@ -1,7 +1,7 @@
 {
 	localizedName: LYSCT-100 Item silo
 	description: 4*4 container with more capacity than vault.
-	type: block
+	type: StorageBlock
 	size: 4
 	destructible: true
 	breakable: true
