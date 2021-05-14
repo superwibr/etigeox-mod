@@ -1,6 +1,7 @@
 {
     localizedName: Etigeum Solar Condenser
     description: Condenses solar power into energy faster than most solar pannels. Fragile.
+    type : SolarGenerator
     health: 100
     size: 4
     hasPower: true

@@ -15,7 +15,6 @@
     outputItem: etigeum-depleted/3
     powerProduction: 45
     consumes: {
-        power: 0 // no
         items: {
             items:[
                 etigeum-charged/2
