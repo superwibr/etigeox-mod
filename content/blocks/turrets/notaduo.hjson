@@ -15,7 +15,6 @@
         items: {
             items: [
             scrap/10
-            sprite/1
             ]
         }
     }
@@ -29,4 +28,7 @@
         pierce : true
         lifetime : 500
     }
+    requirements : [
+        sprite/1
+    ]
 }
