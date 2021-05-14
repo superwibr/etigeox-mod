@@ -1,7 +1,7 @@
 {
     localizedName: Oil Generator
     description: shouldn't it already exist ?
-    type: "ItemLiquidGenerator"
+    type: "PowerGenerator"
     health: 180
     size: 2
     hasPower: true
