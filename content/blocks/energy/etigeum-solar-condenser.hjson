@@ -2,10 +2,10 @@
     localizedName: Etigeum Solar Condenser
     description: Condenses solar power into energy faster than most solar pannels. Fragile.
     health: 100
-    size : 4
-    hasPower : true
-    powerCapacity : 10000
-    powerProduction : 9
+    size: 4
+    hasPower: true
+    powerCapacity: 10000
+    powerProduction: 9
     requirements: [
         titanium/250
         metaglass/250
