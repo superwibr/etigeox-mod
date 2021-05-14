@@ -6,14 +6,12 @@
     size: 3
     hasPower: true
     hasLiquids: true
-    hasItems: true
-    itemCapacity: 100
     powerCapacity: 10000
     updateEffect: steam
     craftEffect: plasticExplosion
     powerProduction: 8
     consumes: {
-        liquid: oil/0.5
+        liquid: oil/0.03
     }
     requirements: [
         copper/50
