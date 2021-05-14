@@ -1,7 +1,7 @@
 {
     localizedName: Oil Generator
     description: shouldn't it already exist ?
-    type: PowerGenerator
+    type: BurnerGenerator
     health: 180
     size: 3
     hasPower: true
