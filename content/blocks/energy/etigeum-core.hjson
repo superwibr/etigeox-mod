@@ -9,7 +9,7 @@
     hasItems: true
     craftTime: 20
     itemCapacity: 100
-    powerCapacity: 100
+    powerCapacity: 10000
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
     outputItem: etigeum-depleted/3
