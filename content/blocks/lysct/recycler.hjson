@@ -1,12 +1,14 @@
 {
 	localizedName: LYSCT-011 Item Recycler
-	description: Takes in scrap and turns it into one of every standard item.
+	description: "Do you want to roll the dice? It only costs 100 scrap and 10L of cryofluid!"
 	type: GenericCrafter
 	health: 380
     size: 4
     hasPower: true
     hasLiquids: true
     hasItems: true
+	outputsLiquid: true
+	configurable: true
     craftTime: 20
     itemCapacity: 100
 	liquidCapacity: 100
@@ -16,30 +18,28 @@
         power: 100,
         items: {
             items:[
-                scrap/100
+                scrap/20
             ]
 		}
 		liquid: {
           liquid: cryofluid
-          amount: 10
-          optional: false
-          booster: true
+          amount: 5
         }
     },
-	/*outputItem: [
-		scrap/1
-		copper/1
-		lead/1
-		titanium/1
-		thorium/1
-		surge-alloy/1
-		phase-fabric/1
-		graphite/1
-		silicon/1
-		metaglass/1
-		plastanium/1
-	]*/
-	outputLiquid: hot-cryofluid/10
+	results: [ // THE NUMBERS AFTE THE ITEM DO NOTHING. caps lock was on too.
+		scrap/5
+		copper/5
+		lead/5
+		titanium/5
+		thorium/5
+		surge-alloy/5
+		phase-fabric/5
+		graphite/5
+		silicon/5
+		metaglass/5
+		plastanium/5
+	]
+	outputLiquid: hot-cryofluid/5
     requirements: [
         titanium/200
         superconductor/5

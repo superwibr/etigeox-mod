@@ -2,13 +2,15 @@
 	localizedName: LYSCT-002 Mechanical fan
 	description: Cools down hot cryofluid.
 	type: GenericCrafter
-	craftTime: 5
+	craftTime: 1
+	size: 2
+	drawer: drill
 	updateEffect: "steam"
 	outputLiquid: cryofluid/0.2
 	consumes: {
 		liquid: {
           liquid: hot-cryofluid
-          amount: 0.2
+          amount: 0.05
         }
 	}
 	requirements: [

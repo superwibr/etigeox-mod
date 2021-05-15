@@ -1,6 +1,6 @@
 {
 	localizedName: LYSCT-010 Item Scrapper
-	description: Takes in common items and turns them into scrap. Every item has the same value to the scrapper: 3 scrap.
+	description: It seems scrap is made of sand and copper. Well now you can manufacture scrap.
 	type: Incinerator
 	health: 380
     size: 4
@@ -11,13 +11,13 @@
     itemCapacity: 100
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
-    outputItem: etigeum-charged/3
+    outputItem: scrap/3
     outputLiquid: hot-cryofluid/0.2
     consumes: {
-        power: 100,
         items: {
             items:[
-                etigeum/3
+                sand/10
+                copper/1
             ]
 		}
 		liquid: {
