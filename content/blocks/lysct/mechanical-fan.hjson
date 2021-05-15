@@ -7,12 +7,15 @@
 	drawer: drawRotator
 	updateEffect: "steam"
 	hasLiquids: true
-	liquidCapacity: 1
-	outputLiquid: cryofluid/0.05
+	liquidCapacity: 5
+	outputLiquid: {
+		liquid: cryofluid
+        amount: 1
+	}
 	consumes: {
 		liquid: {
           liquid: hot-cryofluid
-          amount: 0.05
+          amount: 0.5
         }
 	}
 	requirements: [
