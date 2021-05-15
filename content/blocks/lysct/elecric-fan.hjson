@@ -6,10 +6,10 @@
 	consumes: {
 		liquid: {
           liquid: hot-cryofluid
-          amount: 0.5
+          amount: 0.1
         }
 	}
-	outputLiquid: cryofluid/0.5
+	outputLiquid: cryofluid/0.1
 	requirements: [
 		metaglass/5
 		titanium/10

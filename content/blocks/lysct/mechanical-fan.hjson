@@ -4,9 +4,9 @@
 	type: GenericCrafter
 	craftTime: 1
 	size: 2
-	drawer: drill
+	drawer: drawRotator
 	updateEffect: "steam"
-	outputLiquid: cryofluid/0.2
+	outputLiquid: cryofluid/0.05
 	consumes: {
 		liquid: {
           liquid: hot-cryofluid
