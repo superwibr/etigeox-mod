@@ -6,6 +6,8 @@
 	size: 2
 	drawer: drawRotator
 	updateEffect: "steam"
+	hasLiquids: true
+	liquidCapacity: 1
 	outputLiquid: cryofluid/0.05
 	consumes: {
 		liquid: {

@@ -6,12 +6,11 @@
     size: 4
     hasPower: true
     hasLiquids: true
-    hasItems: true
+    itemCapacity:20
 	outputsLiquid: true
 	configurable: true
     craftTime: 20
-    itemCapacity: 100
-	liquidCapacity: 100
+	liquidCapacity: 10
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
     consumes: {
