@@ -1,7 +1,7 @@
 {
 	localizedName: LYSCT-011 Item Recycler
-	description: "Do you want to roll the dice? It only costs 100 scrap and 10L of cryofluid!"
-	type: GenericCrafter
+	description: "Do you want to roll the dice? It only costs 20 scrap and 5L of cryofluid!"
+	type: "LiquidConverter" // use this for anything using the hot cryo mechanic. It extends GenericCrafter.
 	health: 380
     size: 4
     hasPower: true
@@ -25,19 +25,6 @@
           amount: 5
         }
     },
-	results: [ // THE NUMBERS AFTE THE ITEM DO NOTHING. caps lock was on too.
-		scrap/5
-		copper/5
-		lead/5
-		titanium/5
-		thorium/5
-		surge-alloy/5
-		phase-fabric/5
-		graphite/5
-		silicon/5
-		metaglass/5
-		plastanium/5
-	]
 	outputLiquid: hot-cryofluid/5
     requirements: [
         titanium/200
