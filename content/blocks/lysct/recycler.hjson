@@ -1,7 +1,7 @@
 {
 	localizedName: LYSCT-011 Item Recycler
 	description: "Do you want to roll the dice? It only costs 20 scrap and 5L of cryofluid!"
-	type: GenericCrafter
+	//type: GenericCrafter
 	health: 380
     size: 4
     hasPower: true
