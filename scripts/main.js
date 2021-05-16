@@ -1,4 +1,4 @@
 //
 require('dev/summonblock')
 require('blocks/scrapwalls')
-require('blocks/lysct.js')
+require('blocks/lysct')
