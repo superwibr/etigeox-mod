@@ -19,23 +19,22 @@
     powerUse : 5
     shootType : {
         type : BasicBulletType
-        speed : 60
+        speed : 10
         damage : 18
         height : 2
         width : 1
         hitEffect : hitLaser
         pierce : true
-        lifetime : 999
+        lifetime : 10
     }
     requirements : [
-        etigeum-charged/500
-        etigeum-refined/1000
-        titanium/3000
-        thorium/500
-        surge-alloy/700
+        etigeum-charged/200
+        etigeum-refined/600
+        titanium/650
+        thorium/250
+        surge-alloy/225
         silicon/300
-        graphite/300
-        graphene/300
+        graphene/10
     ]
     category: turret
     research: spectre

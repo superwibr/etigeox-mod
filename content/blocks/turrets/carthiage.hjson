@@ -32,7 +32,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 999
+            lifetime : 10
         }
         pyratite : {
             type : missileExplosive
@@ -47,18 +47,17 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 999
+            lifetime : 10
         }
     }
     requirements : [
-        etigeum-charged/600
+        etigeum-charged/300
         etigeum-refined/700
-        titanium/3000
-        thorium/500
-        surge-alloy/700
+        titanium/800
+        thorium/200
+        surge-alloy/500
         silicon/300
-        graphite/300
-        graphene/300
+        graphene/100
     ]
     category: turret
     research: foreshadow

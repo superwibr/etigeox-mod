@@ -1,0 +1,15 @@
+{
+   localizedName: Etigeum Battery
+   type: battery
+   health: 450
+   size: 4
+   requirements: [
+        lead/400
+        titanium/200
+        silicon/200
+        etigeum-refined/50
+    ]
+   consumes : {powerBuffered: 500000}
+   category: power
+   research: battery-large
+}

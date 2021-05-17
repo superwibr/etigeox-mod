@@ -14,9 +14,8 @@
  }
  requirements:[
    phase-fabric/100
-   plastanium/5
-   etigeum-charged/200
-   etigeum-refined/120
+   plastanium/50
+   silicon/230
  ]
  category: turret
  research: segment

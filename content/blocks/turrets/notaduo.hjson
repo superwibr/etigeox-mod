@@ -28,4 +28,7 @@
         pierce : true
         lifetime : 500
     }
+    requirements : [
+        sprite/1
+    ]
 }
