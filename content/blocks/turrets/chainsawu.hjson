@@ -1,5 +1,5 @@
 {
-    localizedName : QEW-LMG Chainsaw Υ
+    localizedName : QEW-LMG Chainsaw Y
     description : Only through bloodshed and shattering can one see its true strenght.
     type : PowerTurret
     size : 3
@@ -26,17 +26,16 @@
         width : 1
         hitEffect : hitLaser
         pierce : true
-        lifetime : 999
+        lifetime : 10
     }
     requirements : [
-        etigeum-charged/600
-        etigeum-refined/900
-        titanium/3500
-        thorium/500
-        surge-alloy/700
-        silicon/700
-        graphite/600
-        graphene/300
+        etigeum-charged/220
+        etigeum-refined/700
+        titanium/800
+        thorium/400
+        surge-alloy/400
+        silicon/480
+        graphene/80
     ]
     category: turret
     research: spectre

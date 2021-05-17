@@ -27,7 +27,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 999
+            lifetime : 30
             ammoMultiplier : 28
         }
         surge-alloy : {
@@ -39,17 +39,17 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 999
+            lifetime : 30
             ammoMultiplier : 7
         }
     }
         requirements : [
-        etigeum-charged/1000
-        etigeum-refined/2500
-        titanium/4500
-        thorium/3000
-        surge-alloy/2000
-        silicon/3000
+        etigeum-charged/500
+        etigeum-refined/1500
+        titanium/2500
+        thorium/1500
+        surge-alloy/1000
+        silicon/1500
     ]
     category: turret
     research: shadowofremorse

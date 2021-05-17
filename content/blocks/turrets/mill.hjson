@@ -26,14 +26,14 @@
         width : 1
         hitEffect : hitLaser
         pierce : true
-        lifetime : 999
+        lifetime : 8
     }
     requirements : [
-        etigeum-charged/3000
-        etigeum-refined/5000
-        titanium/7000
-        thorium/6000
-        surge-alloy/3000
+        etigeum-charged/500
+        etigeum-refined/900
+        titanium/1211
+        thorium/600
+        surge-alloy/800
     ]
     category: turret
     research: spectre
