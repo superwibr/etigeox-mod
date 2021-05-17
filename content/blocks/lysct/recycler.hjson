@@ -1,6 +1,6 @@
 {
 	localizedName: LYSCT-011 Item Recycler
-	description: "Do you want to roll the dice? It only costs 20 scrap and 5L of cryofluid!"
+	description: "\"Reverse entropy with this simple trick! The universe hates this!\""
 	//type: GenericCrafter
 	health: 380
     size: 4
