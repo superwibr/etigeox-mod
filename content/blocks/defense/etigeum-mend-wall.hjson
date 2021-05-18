@@ -1,12 +1,14 @@
 {
-    localizedName : Etigeum Reinforced Mender
-    type : MendProjector
-    health : 420 //Note: a surge wall has 230 health
-    size : 1
-    hasPower : true
-    powerUse : 2.25
+    localizedName: Etigeum Reinforced Mender
+    type: MendProjector
+    health: 420 //Note: a surge wall has 230 health
+    size: 1
+    hasPower: true
     healPercent: 25
-    range : 100
+    range: 100
+    consumes: {
+        power: 2.25
+    }
     requirements : [
         etigeum-depleted/20
         etigeum-charged/20
@@ -14,6 +16,6 @@
         titanium/48
         silicon/60
     ]
-    category : effect
-    research : etigeum-reinforced-wall-big
+    category: effect
+    research: etigeum-reinforced-wall-big
 }
