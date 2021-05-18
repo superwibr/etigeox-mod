@@ -7,7 +7,7 @@
     speed: 0.33
     itemCapacity: 6
     category: distribution
-    range : 16
+    range : 8
     requirements: [
         etigeum-refined/6
         titanium/12
