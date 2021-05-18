@@ -1,13 +1,13 @@
 {
-    localizedName: Etigeum Reinforced Mender
+    localizedName: Nihil cari esse maior
     type: MendProjector
-    health: 420 //Note: a surge wall has 230 health
-    size: 1
+    health: 220 //Note: a surge wall has 230 health
+    size: 2
     hasPower: true
-    healPercent: 25
-    range: 60
+    healPercent: 60
+    range: 160
     consumes: {
-        power: 2.25
+        power: 5.25
     }
     requirements : [
         etigeum-depleted/20
