@@ -8,10 +8,10 @@
     itemCapacity: 6
     category: distribution
     requirements: [
-        etigeum-refined/1
-        titanium/2
-        silicon/1
-        plastanium/1
+        etigeum-refined/3
+        titanium/6
+        silicon/3
+        plastanium/3
     ]
     research: {
         parent: router,
