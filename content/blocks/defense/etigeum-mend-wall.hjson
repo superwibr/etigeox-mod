@@ -5,7 +5,7 @@
     size: 1
     hasPower: true
     healPercent: 25
-    range: 100
+    range: 80
     consumes: {
         power: 2.25
     }
