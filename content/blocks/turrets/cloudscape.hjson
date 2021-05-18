@@ -4,11 +4,11 @@
     type : PowerTurret
     size : 2
     health : 350
-    reloadTime : 5
-    range : 200
+    reloadTime : 3
+    range : 220
     targetAir : true
     targetGround : false
-    rotateSpeed : 2
+    rotateSpeed : 4
     inaccuracy : 1
     recoilAmount : 5
     restitution : 2

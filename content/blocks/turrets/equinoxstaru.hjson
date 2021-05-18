@@ -4,7 +4,7 @@
     type : PowerTurret
     size : 2
     health : 350
-    reloadTime : 14.75
+    reloadTime : 8
     range : 275
     targetAir : true
     targetGround : true
