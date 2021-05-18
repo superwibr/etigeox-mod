@@ -23,9 +23,9 @@
             hitEffect : shootSmall
             lifetime : 50
             incendAmount : 50
-            incendChance : 100
+            incendChance : 50
             incendSpread : 35
-            ammoMultiplier : 3
+            ammoMultiplier : 2
             pierce : true
         }
         pyratite : {
@@ -46,8 +46,8 @@
         }
     } 
     requirements : [
-        copper/150
-        graphite/150
+        copper/1500
+        graphite/1500
     ]
     category: turret
     research: scorch

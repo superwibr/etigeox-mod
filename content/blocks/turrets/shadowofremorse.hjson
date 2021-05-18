@@ -28,16 +28,16 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 999
+            lifetime : 8
             ammoMultiplier : 5000
         }
     }
     requirements : [
-        etigeum-charged/5000
+        etigeum-charged/2000
         etigeum-refined/1000
-        titanium/8000
-        thorium/5000
-        surge-alloy/7000
+        titanium/1000
+        thorium/1000
+        surge-alloy/2000
         silicon/3000
         graphite/3000
         graphene/3000

@@ -1,9 +1,9 @@
 {
-    localizedName : UEA-HESG Obsidian Υ
+    localizedName : UEA-HESG Obsidian Y
     description : An heavy breathrough shotgun. Low range but devastating.
     type : ItemTurret
     size : 4
-    health : 3000
+    health : 3800
     reloadTime : 96
     range : 120
     targetAir : true
@@ -31,17 +31,17 @@
             hitEffect : nuclearShockwave
             knockback : 4
             pierce : true
-            lifetime : 999
+            lifetime : 5
             ammoMultiplier : 64
         }
     }
     requirements : [
-        etigeum-charged/1200
-        etigeum-refined/1250
-        etigeum-depleted/1250
-        titanium/4500
-        thorium/700
-        surge-alloy/1500
+        etigeum-charged/700
+        etigeum-refined/700
+        etigeum-depleted/1200
+        titanium/1600
+        thorium/800
+        surge-alloy/800
     ]
     category: turret
     research: duo

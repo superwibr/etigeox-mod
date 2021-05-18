@@ -1,5 +1,5 @@
 {
-    localizedName : UEA-HML Carthiage Υ
+    localizedName : UEA-HML Carthiage Y
     description : Following orders will only lead to a downfall.
     type : ItemTurret
     size : 3
@@ -32,7 +32,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 999
+            lifetime : 10
         }
         pyratite : {
             type : missileExplosive
@@ -47,18 +47,17 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 999
+            lifetime : 10
         }
     }
     requirements : [
-        etigeum-charged/800
-        etigeum-refined/1100
-        titanium/3700
-        thorium/5000
-        surge-alloy/700
-        silicon/3000
-        graphite/3000
-        graphene/300
+        etigeum-charged/400
+        etigeum-refined/600
+        titanium/1000
+        thorium/350
+        surge-alloy/500
+        silicon/300
+        graphene/200
         
     ]
     category: turret
