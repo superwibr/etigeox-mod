@@ -1,0 +1,21 @@
+{
+    localizedName: Nihil cari esse maior
+    type: MendProjector
+    health: 220 //Note: a surge wall has 230 health
+    size: 2
+    hasPower: true
+    healPercent: 60
+    range: 175
+    consumes: {
+        power: 5.25
+    }
+    requirements : [
+        etigeum-depleted/20
+        etigeum-charged/20
+        thorium/40
+        titanium/48
+        silicon/60
+    ]
+    category: effect
+    research: etigeum-reinforced-wall-big
+}
