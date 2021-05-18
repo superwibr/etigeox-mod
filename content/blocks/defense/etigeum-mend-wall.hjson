@@ -5,6 +5,8 @@
     size : 1
     hasPower : true
     powerUse : 2.25
+    healPercent: 10
+    range : 10
     requirements : [
         etigeum-depleted/20
         etigeum-charged/20
