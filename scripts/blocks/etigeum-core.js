@@ -7,17 +7,19 @@ etgcore.buildType = () => extend(PowerGenerator.GeneratorBuild, etgcore, {
 		return 45 * this.progress;
 	},
 	warmup: 10,
+	getProgressIncrease(baseTime){
+        return 1 / baseTime * this.edelta();
+    },
     updateTile(){   
-		this.block.craftTime = 20
         if(this.consValid()){
     
-            this.progress += this.getProgressIncrease(this.block.craftTime);
+            this.progress += this.getProgressIncrease(20 /*this.block.craftTime = 20*/ );
             this.totalProgress += this.delta();
             this.warmup = Mathf.lerpDelta(this.warmup, 1, 0.02);
     
-            if(Mathf.chanceDelta(this.block.updateEffectChance)){
+            /*if(Mathf.chanceDelta(0.5 this.block.updateEffectChance)){
                 this.block.updateEffect.at(this.getX() + Mathf.range(this.size * 4), this.getY() + Mathf.range(this.size * 4));
-            }
+            }*/
         }else{
             this.warmup = Mathf.lerp(this.warmup, 0, 0.02);
         }
