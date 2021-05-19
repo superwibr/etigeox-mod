@@ -1,0 +1,23 @@
+{
+	localizedName: LYSCT-001 Heat sync
+	description: Slowly cools down hot cryofluid.
+	type: GenericCrafter
+	craftTime: 120
+	size: 2
+	liquidCapacity: 5
+	updateEffect: "steam"
+	outputLiquid: cryofluid/6
+	consumes: {
+		liquid: {
+          liquid: hot-cryofluid
+          amount: 0.1
+        }
+	}
+	requirements: [
+		metaglass/5
+		titanium/10
+		lead/10
+		graphite/20
+	]
+	category: liquid
+}
