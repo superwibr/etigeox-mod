@@ -2,4 +2,4 @@
 require('dev/summonblock')
 require('blocks/scrapwalls')
 require('blocks/lysct')
-//require('blocks/etigeum-core')
+require('blocks/etigeum-core')
