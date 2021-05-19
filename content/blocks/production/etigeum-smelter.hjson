@@ -23,7 +23,6 @@
         }
     },
     requirements: [
-        etigeum-refined/100
         thorium/190
         titanium/300
         metaglass/240
