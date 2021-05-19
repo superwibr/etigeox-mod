@@ -1,7 +1,7 @@
 {
     localizedName: Etigeum Core
     description: Currently unusable - Generates great amounts of power from all kinds of etigeum and outputs depleted etigeum which is unusable. 
-    type: "GenericSmelter"
+    //type: "GenericCrafter"
     health: 380
     size: 2
     hasPower: true
@@ -9,19 +9,17 @@
     hasItems: true
     craftTime: 20
     itemCapacity: 100
-    powerCapacity: 10000
+    powerCapacity: 100000
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
     outputItem: etigeum-depleted/3
-    powerProduction: 100
     consumes: {
-        power: 0 // no
         items: {
             items:[
-                etigeum-charged/1
+                etigeum-charged/2
             ]
         }
-        liquid: water/0.02
+        liquid: water/0.05
         
     }
     requirements: [

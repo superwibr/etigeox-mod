@@ -2,7 +2,10 @@
 // it makes power.
 
 const etgcore = extend(GenericCrafter, "etigeum-core", {})
-etgcore.buildType = () => extend(GenericCrafter.GenericCrafterBuild, recycler, {
+etgcore.buildType = () => extend(GenericCrafter.GenericCrafterBuild, etgcore, {
+	getPowerProduction(){
+		return 45 * this.progress;
+	},
     updateTile(){     
         if(this.consValid()){
     
