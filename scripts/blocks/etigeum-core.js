@@ -1,12 +1,14 @@
 // core.
 // it makes power.
 
-const etgcore = extend(GenericCrafter, "etigeum-core", {})
-etgcore.buildType = () => extend(GenericCrafter.GenericCrafterBuild, etgcore, {
+const etgcore = extend(PowerGenerator, "etigeum-core", {})
+etgcore.buildType = () => extend(PowerGenerator.GeneratorBuild, etgcore, {
 	getPowerProduction(){
 		return 45 * this.progress;
 	},
-    updateTile(){     
+	warmup: 10,
+    updateTile(){   
+		this.block.craftTime = 20
         if(this.consValid()){
     
             this.progress += this.getProgressIncrease(this.block.craftTime);
