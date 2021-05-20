@@ -1,7 +1,7 @@
 {
-    localizedName: Etigeum Core
+    localizedName: Etigeum Core X3
     description: Currently unusable - Generates great amounts of power from all kinds of etigeum and outputs depleted etigeum which is unusable. 
-    //type: "GenericCrafter"
+    //type: "SingleTypeGenerator"
     health: 380
     size: 2
     hasPower: true
@@ -13,13 +13,14 @@
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
     outputItem: etigeum-depleted/3
+    powerProduction: 45
     consumes: {
         items: {
             items:[
                 etigeum-charged/2
             ]
         }
-        liquid: water/0.05
+        liquid: water/0.03
         
     }
     requirements: [
@@ -27,7 +28,7 @@
         thorium/5
         metaglass/50
         silicon/110
-        graphite/100
+        graphene/100
     ]
     category: power
     research: "impact-reactor"

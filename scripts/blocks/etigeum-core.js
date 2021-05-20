@@ -1,52 +1,15 @@
 // core.
 // it makes power.
 
-const etgcore = extend(PowerGenerator, "etigeum-core", {})
-etgcore.buildType = () => extend(PowerGenerator.GeneratorBuild, etgcore, {
-	getPowerProduction(){
-		return 45 * this.progress;
-	},
-	warmup: 10,
-	getProgressIncrease(baseTime){
-        return 1 / baseTime * this.edelta();
-    },
+const etgcore = extend(BurnerGenerator, "etigeum-core", {})
+etgcore.buildType = () => extend(BurnerGenerator.BurnerGeneratorBuild, etgcore, {
     updateTile(){   
-        if(this.consValid()){
-    
-            this.progress += this.getProgressIncrease(20 /*this.block.craftTime = 20*/ );
-            this.totalProgress += this.delta();
-            this.warmup = Mathf.lerpDelta(this.warmup, 1, 0.02);
-    
-            /*if(Mathf.chanceDelta(0.5 this.block.updateEffectChance)){
-                this.block.updateEffect.at(this.getX() + Mathf.range(this.size * 4), this.getY() + Mathf.range(this.size * 4));
-            }*/
-        }else{
-            this.warmup = Mathf.lerp(this.warmup, 0, 0.02);
-        }
-    
-        if(this.progress >= 1){
-            this.consume();
-    
-            if(this.block.outputItem != null){
-                for(let i = 0; i < this.block.outputItem.amount; i++){
-                    this.offload(this.block.outputItem.item);
-                }
-            }
-    
-            if(this.block.outputLiquid != null){
-                this.handleLiquid(this, this.block.outputLiquid.liquid, this.block.outputLiquid.amount);
-            }
-    
-            this.block.craftEffect.at(this.x, this.y);
-            this.progress %= 1;
-        }
-    
-        if(this.block.outputItem != null && this.timer.get(this.block.timerDump, this.block.dumpTime)){
-            this.dump(this.block.outputItem.item);
-        }
-    
-        if(this.block.outputLiquid != null){
-            this.dumpLiquid(this.block.outputLiquid.liquid);
+        Vars.ui.showInfoToast("toast", 0.9)
+        this.super$updateTile()
+
+        if(this.block.generateTime >= 1){
+            Vars.ui.showInfoToast("core prod > 1", 0.9)
+            //this.dump(this.block.outputItem.item);
         }
     }
 });

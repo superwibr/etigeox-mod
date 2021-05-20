@@ -7,5 +7,7 @@
     research: {
         parent: etigeum,
     },
+    flammability: 0.5
+    charge: 10
     "hardness": 5
 }
