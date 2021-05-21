@@ -3,8 +3,8 @@
 
 
 // Recycler item selection
-const recycler = extend(GenericCrafter, "recycler", {})
-recycler.buildType = () => extend(GenericCrafter.GenericCrafterBuild, recycler, {
+const recycler = extend(GenericSmelter, "recycler", {})
+recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
     buildConfiguration(table){
         let button = (item, qtty) => {
            table.button(new TextureRegionDrawable(Items[item].icon(Cicon.medium)), Styles.clearTransi, () => {
