@@ -12,13 +12,15 @@ recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
                this.sout.amount = qtty
             });
         }
-        button('metaglass', 10)
-        button('surgeAlloy', 2)
-        button('plastanium', 5)
-        button('blastCompound', 10)
-        button('pyratite', 10)
-        button('phaseFabric', 2)
-        button('thorium', 5)
+        button('metaglass',    10)
+        button('surgeAlloy',    2)
+        button('plastanium',    5)
+        button('blastCompound', 5)
+        button('pyratite',     10)
+        button('phaseFabric',   2)
+        button('thorium',       5)
+        button('silicon',      10)
+        button('coal',         15)
     },
     write(write) {
         this.super$write(write);

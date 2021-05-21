@@ -17,7 +17,7 @@
         power: 100,
         items: {
             items:[
-                scrap/20
+                scrap/24
             ]
 		}
 		liquid: {
