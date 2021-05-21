@@ -12,6 +12,6 @@
     ]
     category:distribution
     speed:0.6
-    displayspeed:0.4
+    displaySpeed:0.4
     research: plastanium-conveyor
 }
