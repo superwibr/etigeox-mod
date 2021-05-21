@@ -10,11 +10,9 @@ etgcore.buildType = () => extend(BurnerGenerator.BurnerGeneratorBuild, etgcore, 
 
         //Vars.ui.showInfoToast("prod: "+this.productionEfficiency+",  prodt: "+this.generateTime.toString().substring(0, 5), 1)
 
-        if(this.generateTime <= 0){
-            Vars.ui.showInfoToast("core prod!", 1)
-            this.dump(/*this.block.outputItem.item*/);
+        if(this.generateTime >= 0.1 && this.generateTime <= 0.12){
             for(let i = 0; i < 2 /*this.block.outputItem.amount = 2*/; i++){
-                this.offload(/*this.block.outputItem.item = depleted-etigeum*/);
+                this.offload(Vars.content.getByName(ContentType.item, "etigeox-etigeum-depleted")/*this.block.outputItem.item = depleted-etigeum*/);
             }
         }
     }
