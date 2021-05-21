@@ -20,7 +20,6 @@ recycler.buildType = () => extend(GenericCrafter.GenericCrafterBuild, recycler, 
         button('phaseFabric', 2)
         button('thorium', 5)
     },
-
     write(write) {
         this.super$write(write);
         
@@ -28,16 +27,13 @@ recycler.buildType = () => extend(GenericCrafter.GenericCrafterBuild, recycler, 
         write.s(this.sout.id);
         // soutamount is the item's amount.
         write.i(this.sout.amount);
-    },
-    
+    }, 
     read(read, revision) {
         this.super$read(read, revision);
     
         this.sout.id = read.s();
         this.sout.amount = read.i();
     },
-    
-    // returns the item stack with the specified id and amount.
     getItem() {
         return new ItemStack(Vars.content.item(this.sout.id), this.sout.amount);
     },

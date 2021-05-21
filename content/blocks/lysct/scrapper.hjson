@@ -1,7 +1,7 @@
 {
 	localizedName: LYSCT-010 Item Scrapper
 	description: It seems scrap is made of sand and copper. Well now you can manufacture scrap.
-	type: Incinerator
+	type: GenericCrafter
 	health: 380
     size: 4
     hasPower: true
