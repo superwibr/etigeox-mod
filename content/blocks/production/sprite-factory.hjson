@@ -3,7 +3,7 @@
     description: for meme items - should not be used in regular gameplay
     type: "GenericSmelter"
     health: 3800
-    size: 3
+    size: 2
     hasPower: true
     hasLiquids: true
     hasItems: true
