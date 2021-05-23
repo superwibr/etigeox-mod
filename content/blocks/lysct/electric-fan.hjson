@@ -3,13 +3,23 @@
 	description: Cools faster than a mechanical fan, but requires power.
 	//type: GenericCrafter
 	craftTime: 10
+	size: 3
+	drawer: drawRotator
+	//rotateSpeed: 5
+	updateEffect: "steam"
+	hasLiquids: true
+	liquidCapacity: 100
+	outputLiquid: {
+		liquid: cryofluid
+        amount: 10
+	}
 	consumes: {
+		power: 10
 		liquid: {
           liquid: hot-cryofluid
-          amount: 0.1
+          amount: 1
         }
 	}
-	outputLiquid: cryofluid/0.1
 	requirements: [
 		metaglass/5
 		titanium/10

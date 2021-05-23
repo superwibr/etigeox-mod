@@ -103,6 +103,6 @@ elecfan.buildType = () => extend(GenericCrafter.GenericCrafterBuild, elecfan, {
     draw(){
         this.super$draw()
 
-        Draw.rect(Core.atlas.find("electric-fan-top"), this.x, this.y);
+        Draw.rect(Core.atlas.find("etigeox-electric-fan-top"), this.x, this.y);
     }
 })
