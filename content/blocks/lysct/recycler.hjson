@@ -6,7 +6,7 @@
     size: 4
     hasPower: true
     hasLiquids: true
-    itemCapacity:20
+    itemCapacity:50
 	outputsLiquid: true
 	configurable: true
     craftTime: 20

@@ -1,7 +1,7 @@
 {
 	localizedName: LYSCT-002 Mechanical fan
 	description: Cools down hot cryofluid.
-	type: GenericCrafter
+	//type: GenericCrafter
 	craftTime: 120
 	size: 2
 	drawer: drawRotator

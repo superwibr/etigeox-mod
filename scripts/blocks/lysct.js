@@ -86,3 +86,23 @@ recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
         }
     }
 });
+
+
+// fans
+const mechfan = extend(GenericCrafter, "mechanical-fan", {})
+mechfan.buildType = () => extend(GenericCrafter.GenericCrafterBuild, mechfan, {
+    draw(){
+        this.super$draw()
+
+        Draw.rect(Core.atlas.find("etigeox-mechanical-fan-top"), this.x, this.y);
+    }
+})
+
+const elecfan = extend(GenericCrafter, "electric-fan", {})
+elecfan.buildType = () => extend(GenericCrafter.GenericCrafterBuild, elecfan, {
+    draw(){
+        this.super$draw()
+
+        Draw.rect(Core.atlas.find("electric-fan-top"), this.x, this.y);
+    }
+})

@@ -1,7 +1,7 @@
 {
 	localizedName: LYSCT-003 Electric fan 
 	description: Cools faster than a mechanical fan, but requires power.
-	type: GenericCrafter
+	//type: GenericCrafter
 	craftTime: 10
 	consumes: {
 		liquid: {
