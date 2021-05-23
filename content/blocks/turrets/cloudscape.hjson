@@ -8,7 +8,7 @@
     range : 220
     targetAir : true
     targetGround : false
-    rotateSpeed : 4
+    rotateSpeed : 6
     inaccuracy : 1
     recoilAmount : 5
     restitution : 2

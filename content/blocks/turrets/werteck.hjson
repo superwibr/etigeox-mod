@@ -4,7 +4,7 @@
     type : PowerTurret
     size : 2
     health : 250
-    reloadTime : 5
+    reloadTime : 7
     range : 200
     targetAir : true
     targetGround : true
@@ -17,7 +17,7 @@
     shots : 3
     shootSound : lasershoot
     hasPower : true
-    powerUse : 5
+    powerUse : 7
     shootType : {
         type : BasicBulletType
         speed : 60
@@ -26,12 +26,12 @@
         width : 1
         hitEffect : hitLaser
         pierce : true
-        lifetime : 300
+        lifetime : 30
     }
     requirements : [
         lead/600
         titanium/600
-        silicon/100
+        silicon/200
     ]
     category: turret
     research: spectre

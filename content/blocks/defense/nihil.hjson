@@ -10,11 +10,11 @@
         power: 5.25
     }
     requirements : [
-        etigeum-depleted/20
-        etigeum-charged/20
-        thorium/40
-        titanium/48
-        silicon/60
+        etigeum-depleted/200
+        etigeum-charged/200
+        thorium/400
+        titanium/480
+        silicon/600
     ]
     category: effect
     research: etigeum-reinforced-wall-big
