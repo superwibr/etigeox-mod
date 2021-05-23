@@ -3,7 +3,7 @@
     description: In the rainbow factory~ Where are your dreams and horrors come true~
     type: "GenericSmelter"
     health: 380
-    size: 3
+    size: 2
     hasPower: true
     hasLiquids: true
     hasItems: true
