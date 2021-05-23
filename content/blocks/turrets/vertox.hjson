@@ -1,0 +1,39 @@
+{
+    localizedName : Vertox 679337554
+    description : hey ben we got a vertox @
+    type : PowerTurret
+    size : 2
+    health : 2500
+    reloadTime : 3
+    range : 200
+    targetAir : true
+    targetGround : true
+    rotateSpeed : 679337554
+    inaccuracy : 2
+    recoilAmount : 7
+    restitution : 2
+    cooldown : 5
+    spread : 4
+    shots : 4
+    shootSound : lasershoot
+    hasPower : true
+    powerUse : 0
+    shootType : {
+        type : BasicBulletType
+        speed : 60
+        damage : 679337554
+        height : 2
+        width : 1
+        hitEffect : hitLaser
+        pierce : true
+        lifetime : 30
+    }
+    requirements : [
+        lead/600
+        titanium/600
+        silicon/200
+    ]
+    category: turret
+    research: spectre
+}
+
