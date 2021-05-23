@@ -1,0 +1,32 @@
+{
+    localizedName: Sprite Ffaactoryu 
+    description: for meme items - should not be used in regular gameplay
+    type: "GenericSmelter"
+    health: 3800
+    size: 3
+    hasPower: true
+    hasLiquids: true
+    hasItems: true
+    craftTime: 1
+    itemCapacity: 100000
+    updateEffect: "steam"
+    craftEffect: "plasticExplosion"
+    outputItem: sprite/300
+    consumes: {
+        power: 2,
+        items: {
+            items:[
+                plastanium/1
+            ]
+        }
+    },
+    requirements: [
+        titanium/200
+        thorium/5
+        metaglass/50
+        graphite/100
+        silicon/100
+    ],
+    category: crafting
+    research: alloy-smelter
+}
