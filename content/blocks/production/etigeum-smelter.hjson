@@ -11,7 +11,7 @@
     itemCapacity: 64
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
-    outputItem: etigeum-refined/3
+    outputItem: etigeum/3
     consumes: {
         power: 18,
         items: {
