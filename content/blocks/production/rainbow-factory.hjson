@@ -1,0 +1,32 @@
+{
+    localizedName: Rainbow factory
+    description: In the rainbow factory~ Where are your dreams and horrors come true~
+    type: "GenericSmelter"
+    health: 380
+    size: 3
+    hasPower: true
+    hasLiquids: true
+    hasItems: true
+    craftTime: 20
+    itemCapacity: 100
+    updateEffect: "steam"
+    craftEffect: "plasticExplosion"
+    outputItem: rainbow-product/3
+    consumes: {
+        power: 10,
+        items: {
+            items:[
+                sprite/1
+            ]
+        }
+    },
+    requirements: [
+        titanium/200
+        thorium/5
+        metaglass/50
+        graphite/100
+        silicon/100
+    ],
+    category: crafting
+    research: alloy-smelter
+}
