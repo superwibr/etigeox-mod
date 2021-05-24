@@ -5,7 +5,7 @@
     size : 3
     health : 350
     reloadTime : 1
-    range : 600
+    range : 750
     targetAir : true
     targetGround : true
     rotateSpeed : 1
@@ -30,7 +30,8 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 30
+            lifetime : 90
+            ammoMultiplier : 10
         }
         pyratite : {
             type : missileExplosive
@@ -43,7 +44,8 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 40
+            lifetime : 90
+            ammoMultiplier : 10
         }
         etigeum-magazine : {
             type : missileExplosive
@@ -56,7 +58,8 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 40
+            lifetime : 90
+            ammoMultiplier : 10
         }
     }
     requirements : [
