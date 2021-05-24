@@ -3,7 +3,7 @@
     description : literally Superwibr's wife , meme tower
     type : ItemTurret
     size : 3
-    health : 750
+    health : 1750
     reloadTime : 0.093
     range : 350
     targetAir : true
@@ -14,7 +14,7 @@
     restitution : 2
     cooldown : 5
     spread : 10
-    shots : 1
+    shots : 8
     shootSound : shootBig
     maxAmmo : 80
     ammoPerShot : 4
@@ -28,7 +28,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : hitLaser
-            lifetime : 60
+            lifetime : 200
             ammoMultiplier : 60
         }
     }

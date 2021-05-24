@@ -30,7 +30,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : hitLaser
-            lifetime : 60
+            lifetime : 200
             ammoMultiplier : 60
         }
     }
