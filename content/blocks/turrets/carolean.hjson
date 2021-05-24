@@ -1,0 +1,40 @@
+{
+    localizedName : återvända
+    description : AHEAD , FACING THE LEAD , AN ARMY OF SWEDES , PERFORMING GOD'S DEEDS , SHOWING NO FEAR , THEIR JUDGEMENT IS NEAR , MAKING THEIR SACRIFICE (Sabaton , Carolean's Prayer) , meme tower
+    type : ItemTurret
+    size : 2
+    health : 750
+    reloadTime : 18
+    range : 150
+    targetAir : true
+    targetGround : true
+    rotateSpeed : 1
+    inaccuracy : 0
+    recoilAmount : 5
+    restitution : 2
+    cooldown : 5
+    spread : 10
+    shots : 1
+    shootSound : shootBig
+    maxAmmo : 8
+    ammoPerShot : 1
+    ammoTypes : {
+        lead : {
+            type : BasicBulletType
+            damage : 2800
+            speed : 2
+            height : 20
+            width : 20
+            shootEffect : generatespark
+            smokeEffect : steam
+            hitEffect : nuclearShockwave
+            lifetime : 20
+            ammoMultiplier : 60
+        }
+    }
+    requirements : [
+        sprite/1
+    ]
+    category: turret
+}
+

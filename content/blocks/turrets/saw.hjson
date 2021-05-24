@@ -1,0 +1,42 @@
+{
+    localizedName : FF M249 SAW
+    description : literally Miter's wife , meme tower
+    type : ItemTurret
+    size : 3
+    health : 785
+    reloadTime : 0.139
+    range : 350
+    targetAir : true
+    targetGround : true
+    rotateSpeed : 1
+    inaccuracy :  1
+    recoilAmount : 5
+    restitution : 2
+    cooldown : 5
+    spread : 10
+    shots : 1
+    shootSound : shootBig
+    maxAmmo : 8
+    ammoPerShot : 4
+    ammoTypes : {
+        titanium : {
+            type : missileExplosive
+            damage : 156
+            splashDamageRadius : 1
+            splashDamage : 120
+            speed : 2
+            height : 20
+            width : 20
+            shootEffect : generatespark
+            smokeEffect : steam
+            hitEffect : nuclearShockwave
+            lifetime : 20
+            ammoMultiplier : 60
+        }
+    }
+    requirements : [
+        rainbow-product/1
+    ]
+    category: turret
+}
+
