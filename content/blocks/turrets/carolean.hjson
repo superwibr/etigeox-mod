@@ -27,8 +27,8 @@
             width : 20
             shootEffect : generatespark
             smokeEffect : steam
-            hitEffect : nuclearShockwave
-            lifetime : 20
+            hitEffect : hitLaser
+            lifetime : 60
             ammoMultiplier : 60
         }
     }

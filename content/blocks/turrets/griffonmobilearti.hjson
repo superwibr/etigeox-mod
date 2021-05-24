@@ -4,7 +4,7 @@
     type : ItemTurret
     size : 4
     health : 6600
-    reloadTime : 23.7
+    reloadTime : 161
     range : 350
     targetAir : true
     targetGround : true
@@ -30,7 +30,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 20
+            lifetime : 60
             ammoMultiplier : 60
         }
         pyratite : {
@@ -44,7 +44,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 20
+            lifetime : 60
             ammoMultiplier : 60
         }
     }
