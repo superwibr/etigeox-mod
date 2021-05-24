@@ -15,10 +15,8 @@
     cooldown : 5
     spread : 10
     shots : 1
-    hasItems: true
-    itemCapacity : 100
     shootSound : shootBig
-    maxAmmo : 8
+    maxAmmo : 80
     ammoPerShot : 1
     ammoTypes : {
         lead : {
