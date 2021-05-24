@@ -29,7 +29,7 @@
         lifetime : 30
     }
     requirements : [
-        rainbow-product/1
+        rainbow-product/2
     ]
     category: turret
     research: spectre
