@@ -30,7 +30,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 90
+            lifetime : 999
             ammoMultiplier : 10
         }
         pyratite : {
@@ -44,7 +44,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 90
+            lifetime : 999
             ammoMultiplier : 10
         }
         etigeum-magazine : {
@@ -58,7 +58,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 90
+            lifetime : 999
             ammoMultiplier : 10
         }
     }
