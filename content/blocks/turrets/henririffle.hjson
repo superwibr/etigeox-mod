@@ -16,7 +16,7 @@
     spread : 10
     shots : 40
     shootSound : shootBig
-    maxAmmo : 8
+    maxAmmo : 800
     ammoPerShot : 2
     ammoTypes : {
         blast-compound : {

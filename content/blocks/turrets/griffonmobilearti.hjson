@@ -16,7 +16,7 @@
     spread : 10
     shots : 1
     shootSound : shootBig
-    maxAmmo : 80
+    maxAmmo : 120
     ammoPerShot : 4
     ammoTypes : {
         blast-compound : {
@@ -24,13 +24,13 @@
             damage : 765
             splashDamageRadius : 5
             splashDamage : 115
-            speed : 2
+            speed : 6
             height : 20
             width : 20
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 200
+            lifetime : 300
             ammoMultiplier : 60
         }
         pyratite : {
@@ -38,13 +38,13 @@
             damage : 765
             splashDamageRadius : 5
             splashDamage : 115
-            speed : 2
+            speed : 6
             height : 20
             width : 20
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 200
+            lifetime : 300
             ammoMultiplier : 60
         }
     }

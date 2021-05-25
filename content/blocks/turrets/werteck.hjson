@@ -20,7 +20,7 @@
     powerUse : 7
     shootType : {
         type : BasicBulletType
-        speed : 60
+        speed : 20
         damage : 6
         height : 2
         width : 1

@@ -16,7 +16,7 @@
     spread : 10
     shots : 2
     shootSound : shootBig
-    maxAmmo : 8
+    maxAmmo : 100
     ammoPerShot : 2
     ammoTypes : {
         etigeum-magazine : {
@@ -28,7 +28,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : shootSmall
-            lifetime : 10
+            lifetime : 300
             ammoMultiplier : 10
         }
     }

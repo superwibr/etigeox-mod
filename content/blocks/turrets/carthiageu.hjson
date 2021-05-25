@@ -32,7 +32,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 10
+            lifetime : 100
         }
         pyratite : {
             type : missileExplosive
@@ -47,7 +47,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 10
+            lifetime : 100
         }
     }
     requirements : [

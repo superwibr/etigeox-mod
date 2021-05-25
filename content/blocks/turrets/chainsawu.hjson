@@ -26,7 +26,7 @@
         width : 1
         hitEffect : hitLaser
         pierce : true
-        lifetime : 10
+        lifetime : 70
     }
     requirements : [
         etigeum-charged/220

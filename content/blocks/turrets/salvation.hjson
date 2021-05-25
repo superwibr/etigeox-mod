@@ -27,7 +27,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 30
+            lifetime : 120
             ammoMultiplier : 28
         }
         surge-alloy : {
@@ -41,7 +41,7 @@
             shootEffect : generatespark
             smokeEffect : steam
             hitEffect : nuclearShockwave
-            lifetime : 30
+            lifetime : 120
             ammoMultiplier : 7
         }
     }
