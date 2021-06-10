@@ -7,13 +7,13 @@
     hasPower: true
     hasLiquids: true
     hasItems: true
-    craftTime: 20
-    itemCapacity: 100
+    craftTime: 3
+    itemCapacity: 100000
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
     outputItem: rainbow-product/3
     consumes: {
-        power: 10,
+        power: 1,
         items: {
             items:[
                 sprite/1
@@ -22,7 +22,6 @@
     },
     requirements: [
         titanium/200
-        thorium/5
         metaglass/50
         graphite/100
         silicon/100

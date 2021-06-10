@@ -13,7 +13,7 @@
     craftEffect: "plasticExplosion"
     outputItem: sprite/300
     consumes: {
-        power: 2,
+        power: 1,
         items: {
             items:[
                 plastanium/1
@@ -22,7 +22,6 @@
     },
     requirements: [
         titanium/200
-        thorium/5
         metaglass/50
         graphite/100
         silicon/100
