@@ -1,0 +1,70 @@
+{
+    localizedName : Arena Closer
+    description : To quickswitch maps , do not use please
+    type : ItemTurret
+    size : 3
+    health : 350
+    reloadTime : 1
+    range : 10000
+    targetAir : true
+    targetGround : true
+    rotateSpeed : 1
+    inaccuracy : 2
+    recoilAmount : 5
+    restitution : 2
+    cooldown : 5
+    spread : 10
+    shots : 40
+    shootSound : shootBig
+    maxAmmo : 800
+    ammoPerShot : 2
+    ammoTypes : {
+        copper : {
+            type : missileExplosive
+            damage : 50000
+            splashDamageRadius : 2000
+            splashDamage : 55000
+            speed : 8
+            height : 10
+            width : 10
+            shootEffect : generatespark
+            smokeEffect : steam
+            hitEffect : nuclearShockwave
+            lifetime : 999
+            ammoMultiplier : 10
+        }
+        lead : {
+            type : missileExplosive
+            damage : 30000
+            splashDamageRadius : 1000
+            splashDamage : 20000
+            speed : 4
+            height : 9
+            width : 9
+            shootEffect : generatespark
+            smokeEffect : steam
+            hitEffect : nuclearShockwave
+            lifetime : 999
+            ammoMultiplier : 10
+        }
+        sand : {
+            type : missileExplosive
+            damage : 70000
+            splashDamageRadius : 1700
+            splashDamage : 70000
+            speed : 4
+            height : 9
+            width : 14
+            shootEffect : generatespark
+            smokeEffect : steam
+            hitEffect : nuclearShockwave
+            lifetime : 999
+            ammoMultiplier : 10
+        }
+    }
+    requirements : [
+        copper/1
+    ]
+    category: turret
+    research: henririffle
+}
