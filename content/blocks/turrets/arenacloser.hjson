@@ -31,7 +31,7 @@
             smokeEffect : steam
             hitEffect : nuclearShockwave
             lifetime : 999
-            ammoMultiplier : 10
+            ammoMultiplier : 100
         }
         lead : {
             type : missileExplosive
@@ -45,7 +45,7 @@
             smokeEffect : steam
             hitEffect : nuclearShockwave
             lifetime : 999
-            ammoMultiplier : 10
+            ammoMultiplier : 100
         }
         sand : {
             type : missileExplosive
@@ -59,7 +59,7 @@
             smokeEffect : steam
             hitEffect : nuclearShockwave
             lifetime : 999
-            ammoMultiplier : 10
+            ammoMultiplier : 100
         }
     }
     requirements : [
