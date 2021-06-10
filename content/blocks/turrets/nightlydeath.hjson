@@ -4,7 +4,7 @@
     type: ItemTurret
     size: 3
     health: 350
-    reloadTime: 260
+    reloadTime: 220
     range: 440
     targetAir: true
     targetGround: true
@@ -28,7 +28,7 @@
             shootEffect: generatespark
             smokeEffect: steam
             hitEffect: shootSmall
-            lifetime: 300
+            lifetime: 70
             ammoMultiplier: 10
         }
     }

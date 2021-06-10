@@ -9,7 +9,7 @@
     targetAir : false
     targetGround : true
     rotateSpeed : 0.8
-    inaccuracy : 88
+    inaccuracy : 8
     recoilAmount : 15
     restitution : 2
     cooldown : 5
@@ -21,15 +21,15 @@
     shootType : {
         type : BasicBulletType
         speed : 5
-        damage : 109
+        damage : 69
         height : 2
         width : 1
         hitEffect : hitLaser
         pierce : true
-        lifetime : 80
+        lifetime : 60
     }
     requirements : [
-        etigeum-charged/500
+        etigeum-charged/1200
         etigeum-refined/900
         titanium/1211
         thorium/600
