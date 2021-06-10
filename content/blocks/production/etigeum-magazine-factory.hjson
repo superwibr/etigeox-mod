@@ -16,9 +16,9 @@
         power: 10,
         items: {
             items:[
-                etigeum-depleted/30
-                etigeum-refined/30
-                surge-alloy/30
+                etigeum-depleted/3
+                etigeum-refined/3
+                surge-alloy/5
             ]
         }
         liquid: water/0.15
