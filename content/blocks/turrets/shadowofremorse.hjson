@@ -33,14 +33,14 @@
         }
     }
     requirements : [
-        etigeum-charged/2000
-        etigeum-refined/1000
+        etigeum-charged/1000
+        etigeum-refined/500
         titanium/1000
         thorium/1000
-        surge-alloy/2000
-        silicon/3000
-        graphite/3000
-        graphene/3000
+        surge-alloy/700
+        silicon/2200
+        graphite/2200
+        graphene/1200
     ]
     category: turret
     research: chainsaw
