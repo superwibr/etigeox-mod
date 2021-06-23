@@ -1,0 +1,23 @@
+{
+    localizedName: Moose Droover
+    description: "The cutest teensy mass driver X3"
+    type: "MassDriver"
+    size: 1
+    health: 190
+    itemCapacity: 50
+    reloadTime: 200
+    range: 440
+    category: distribution
+    requirements: [
+		titanium/125
+		silicon/75
+		lead/125
+		thorium/50
+    ]
+    research: {
+        parent: mass-driver,
+        requirements: [
+            etigeum/1
+        ]
+    }
+}

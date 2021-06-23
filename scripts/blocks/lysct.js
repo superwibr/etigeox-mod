@@ -12,15 +12,15 @@ recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
                this.sout.amount = qtty
             });
         }
-        button('metaglass',    10)
-        button('surgeAlloy',    2)
-        button('plastanium',    5)
+        button('metaglass', 10)
+        button('surgeAlloy', 2)
+        button('plastanium', 5)
         button('blastCompound', 5)
-        button('pyratite',     10)
-        button('phaseFabric',   2)
-        button('thorium',       5)
-        button('silicon',      10)
-        button('coal',         15)
+        button('pyratite', 10)
+        button('phaseFabric', 2)
+        button('thorium', 5)
+        button('silicon', 10)
+        button('coal', 15)
     },
     write(write) {
         this.super$write(write);
@@ -45,7 +45,6 @@ recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
         amount:0
     },
     updateTile(){
-        this.block.outputItem = this.getItem()
         
         if(this.consValid()){
     
@@ -63,9 +62,9 @@ recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
         if(this.progress >= 1){
             this.consume();
     
-            if(this.block.outputItem != null){
-                for(let i = 0; i < this.block.outputItem.amount; i++){
-                    this.offload(this.block.outputItem.item);
+            if(this.getItem() != null){
+                for(let i = 0; i < this.getItem().amount; i++){
+                    this.offload(this.getItem().item);
                 }
             }
     
@@ -77,8 +76,8 @@ recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
             this.progress %= 1;
         }
     
-        if(this.block.outputItem != null && this.timer.get(this.block.timerDump, this.block.dumpTime)){
-            this.dump(this.block.outputItem.item);
+        if(this.getItem() != null && this.timer.get(this.block.timerDump, this.block.dumpTime)){
+            this.dump(this.getItem().item);
         }
     
         if(this.block.outputLiquid != null){
