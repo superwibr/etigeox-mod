@@ -18,8 +18,8 @@ const recycler = extend(GenericSmelter, "recycler", {
 })
 recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
     buildConfiguration(table){
-        let button = function(item, qtty){
-           table.button(new TextureRegionDrawable(Items[item].icon(Cicon.medium)), Styles.clearTransi, function(){
+        let button = (item, qtty) => {
+           table.button(new TextureRegionDrawable(Items[item].icon(Cicon.medium)), Styles.clearTransi, () => {
                this.sout.item = Items[item]
                this.sout.amount = qtty
                this.configure(this.sout.item)
@@ -40,14 +40,14 @@ recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
         this.super$write(write);
         
         // soutid is the item's id.
-        write.s(this.sout.id);
+        write.s(this.sout.item);
         // soutamount is the item's amount.
         write.i(this.sout.amount);
     }, 
     read(read, revision) {
         this.super$read(read, revision);
     
-        this.sout.id = read.s();
+        this.sout.item = read.s();
         this.sout.amount = read.i();
     },
     getItem() {
@@ -84,7 +84,7 @@ recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
     
             if(this.getItem() != null){
                 for(let i = 0; i < this.getItem().amount; i++){
-                    this.offload(this.getItem().item.id);
+                    this.offload(this.getItem().item);
                 }
             }
     
