@@ -7,6 +7,7 @@
 	drawer: drawRotator
 	//rotateSpeed: 5
 	updateEffect: "steam"
+	destructible:true
 	hasLiquids: true
 	liquidCapacity: 100
 	outputLiquid: {

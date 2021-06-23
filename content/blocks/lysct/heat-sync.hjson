@@ -5,6 +5,7 @@
 	craftTime: 1000
 	size: 2
 	liquidCapacity: 5
+	destructible:true
 	updateEffect: "steam"
 	outputLiquid: cryofluid/5
 	consumes: {

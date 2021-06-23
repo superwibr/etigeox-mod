@@ -3,13 +3,27 @@
 
 
 // Recycler item selection
-const recycler = extend(GenericSmelter, "recycler", {})
+const recycler = extend(GenericSmelter, "recycler", {
+    configurations: ObjectMap.of(
+        Item,
+        extend(Cons2, {
+            get: (b, s) => b.setSoutItem(s)
+        }),
+
+        java.lang.Integer,
+        extend(cons2, {
+            get: (b, s) => b.setSoutQuant(s)
+        })
+    )
+})
 recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
     buildConfiguration(table){
-        let button = (item, qtty) => {
-           table.button(new TextureRegionDrawable(Items[item].icon(Cicon.medium)), Styles.clearTransi, () => {
-               this.sout.id = Items[item].id
+        let button = function(item, qtty){
+           table.button(new TextureRegionDrawable(Items[item].icon(Cicon.medium)), Styles.clearTransi, function(){
+               this.sout.item = Items[item]
                this.sout.amount = qtty
+               this.configure(this.sout.item)
+               this.configure(this.sout.amount)
             });
         }
         button('metaglass', 10)
@@ -39,10 +53,16 @@ recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
     getItem() {
         return new ItemStack(Vars.content.item(this.sout.id), this.sout.amount);
     },
+    setSoutItem(s){
+        this.sout.item = s
+    },
+    setSoutQuant(s){
+        this.sout.amount = s
+    },
 
     sout: {
-        id:0,
-        amount:0
+        item: Items.surgeAlloy,
+        amount:2
     },
     updateTile(){
         
@@ -64,7 +84,7 @@ recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
     
             if(this.getItem() != null){
                 for(let i = 0; i < this.getItem().amount; i++){
-                    this.offload(this.getItem().item);
+                    this.offload(this.getItem().item.id);
                 }
             }
     
@@ -77,7 +97,7 @@ recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
         }
     
         if(this.getItem() != null && this.timer.get(this.block.timerDump, this.block.dumpTime)){
-            this.dump(this.getItem().item);
+            this.dump(this.getItem().item.id);
         }
     
         if(this.block.outputLiquid != null){

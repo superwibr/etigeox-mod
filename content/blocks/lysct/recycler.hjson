@@ -4,6 +4,7 @@
 	//type: GenericCrafter
 	health: 380
     size: 4
+    destructible:true
     hasPower: true
     hasLiquids: true
     itemCapacity:50

@@ -8,6 +8,7 @@
     hasLiquids: true
     hasItems: true
     craftTime: 20
+    destructible:true
     itemCapacity: 100
     updateEffect: "steam"
     craftEffect: "plasticExplosion"
