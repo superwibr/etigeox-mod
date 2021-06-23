@@ -11,7 +11,7 @@ const recycler = extend(GenericSmelter, "recycler", {
         }),
 
         java.lang.Integer,
-        extend(cons2, {
+        extend(Cons2, {
             get: (b, s) => b.setSoutQuant(s)
         })
     )
@@ -51,7 +51,7 @@ recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
         this.sout.amount = read.i();
     },
     getItem() {
-        return new ItemStack(Vars.content.item(this.sout.id), this.sout.amount);
+        return new ItemStack(this.sout.item, this.sout.amount);
     },
     setSoutItem(s){
         this.sout.item = s
@@ -97,7 +97,7 @@ recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
         }
     
         if(this.getItem() != null && this.timer.get(this.block.timerDump, this.block.dumpTime)){
-            this.dump(this.getItem().item.id);
+            this.dump(this.getItem().item.name);
         }
     
         if(this.block.outputLiquid != null){
