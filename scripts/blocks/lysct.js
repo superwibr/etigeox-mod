@@ -97,7 +97,7 @@ recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
         }
     
         if(this.getItem() != null && this.timer.get(this.block.timerDump, this.block.dumpTime)){
-            this.dump(this.getItem().item.name);
+            this.dump(this.getItem().item);
         }
     
         if(this.block.outputLiquid != null){
