@@ -3,6 +3,6 @@
     displayName: "ETG Circsus" // what displays in the mod selection menu
     author: "Superwibr & Miter"
     description: "Mod about the Etigeox Universe , don't look it up , it is all in our heads for now. <UNDER CONSTRUCTION. USE AT YOUR OWN RISK.>"
-    version: "0.25.10"
+    version: "0.25.11"
     minGameVersion: "105"
 }
