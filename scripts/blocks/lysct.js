@@ -40,14 +40,14 @@ recycler.buildType = () => extend(GenericSmelter.SmelterBuild, recycler, {
         this.super$write(write);
         
         // soutid is the item's id.
-        write.s(this.sout.item);
+        write.str(this.sout.item.name);
         // soutamount is the item's amount.
         write.i(this.sout.amount);
     }, 
     read(read, revision) {
         this.super$read(read, revision);
     
-        this.sout.item = read.s();
+        this.sout.item = Items[Strings.kebabToCamel(read.str())];
         this.sout.amount = read.i();
     },
     getItem() {
